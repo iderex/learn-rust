@@ -1,0 +1,4 @@
+[workspace]
+resolver = "3"
+members = ["[0-9][0-9]-*"]
+exclude = ["template"]
