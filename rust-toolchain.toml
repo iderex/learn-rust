@@ -1,0 +1,9 @@
+# Die gebundene Version. Ohne sie veralten Kapitelnummern und Kapiteltitel in
+# den Quellenangaben still. Wie zitiert wird, steht in CONTRIBUTING.md.
+#
+# The pinned version. Without it the chapter numbers and chapter titles in
+# source references go stale in silence. How we cite is in CONTRIBUTING.md.
+
+[toolchain]
+channel = "1.97.1"
+components = ["rustfmt", "clippy"]
