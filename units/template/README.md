@@ -6,8 +6,7 @@ Kopiere `units/template/` nach `units/<nn-nn-name>/`, kopiere den Ordner
 neuen Einheit, lösche diesen Kopf bis zur Trennlinie und ersetze jede
 Platzhalter-Klammer. Beide Pakete tragen denselben Paketnamen, sonst übersetzt
 die Lösung nicht. Als ausgebautes Muster dient `units/02-01-move/` mit
-`solutions/02-01-move/`. Wie zitiert wird, steht in `CONTRIBUTING.md`, und hier
-wird die Regel nicht abgeschrieben.
+`solutions/02-01-move/`.
 
 Zwei Teile einer Einheit fehlen dieser Vorlage noch. Der eingeklappte
 Hinweisblock für KI-Assistenten kommt mit Issue #10, die Schlusszeile mit den
@@ -18,8 +17,7 @@ English: this head belongs to the template and not to the finished unit. Copy
 it to `solutions/<nn-nn-name>/`, delete `solution/` from the new unit, delete
 this head down to the rule, and replace every placeholder bracket. Both
 packages carry the same package name, otherwise the solution does not compile.
-The worked model is `units/02-01-move/` with `solutions/02-01-move/`. How to
-cite is written in `CONTRIBUTING.md`, and the rule is not copied here.
+The worked model is `units/02-01-move/` with `solutions/02-01-move/`.
 
 Two parts of a unit are still missing from this template. The collapsed note
 block for AI assistants arrives with issue #10, and the closing line pointing at
@@ -80,8 +78,12 @@ cargo test
 
 ### Quelle
 
-<Werk, Kapitel <nr> "<Kapiteltitel>", Abschnitt <nr> "<Abschnittstitel>",
-<Link>, gepinnte Version <version>.>
+    Buch, Kapitel <nr> "<Kapiteltitel>", Abschnitt <nr> "<Abschnittstitel>",
+    <Link>,
+    geprüft gegen <version>
+
+Wie zitiert wird, steht in `CONTRIBUTING.md`, und die Regel wird hier nicht
+abgeschrieben.
 
 ## English
 
@@ -133,5 +135,8 @@ cargo test
 
 ### Source
 
-<Work, chapter <no> "<chapter title>", section <no> "<section title>", <link>,
-pinned version <version>.>
+    Book, chapter <no> "<chapter title>", section <no> "<section title>",
+    <link>,
+    checked against <version>
+
+How to cite is written in `CONTRIBUTING.md`, and the rule is not copied here.

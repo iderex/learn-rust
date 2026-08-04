@@ -115,10 +115,12 @@ cargo test
 
 ### Quelle
 
-The Rust Programming Language, Kapitel 4 "Understanding Ownership", Abschnitt
-4.1 "What is Ownership?",
-https://doc.rust-lang.org/1.97.1/book/ch04-01-what-is-ownership.html, gepinnte
-Version 1.97.1.
+    Buch, Kapitel 4 "Understanding Ownership", Abschnitt 4.1 "What is Ownership?",
+    https://doc.rust-lang.org/book/ch04-01-what-is-ownership.html,
+    geprüft gegen 1.97.1
+
+Wie zitiert wird, steht in `CONTRIBUTING.md`, und die Regel wird hier nicht
+abgeschrieben.
 
 ## English
 
@@ -232,7 +234,8 @@ cargo test
 
 ### Source
 
-The Rust Programming Language, chapter 4 "Understanding Ownership", section 4.1
-"What is Ownership?",
-https://doc.rust-lang.org/1.97.1/book/ch04-01-what-is-ownership.html, pinned
-version 1.97.1.
+    Book, chapter 4 "Understanding Ownership", section 4.1 "What is Ownership?",
+    https://doc.rust-lang.org/book/ch04-01-what-is-ownership.html,
+    checked against 1.97.1
+
+How to cite is written in `CONTRIBUTING.md`, and the rule is not copied here.
