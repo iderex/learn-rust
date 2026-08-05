@@ -102,6 +102,8 @@ wirklich gibt.
   Lösung unter `solutions/04-08-from-into-und-fragezeichen/`
 - [04-09 TryFrom und ein eigener Fehlertyp](units/04-09-tryfrom-und-fehlertyp/README.md),
   Lösung unter `solutions/04-09-tryfrom-und-fehlertyp/`
+- [04-10 std::error::Error und Box<dyn Error>](units/04-10-error-und-box-dyn-error/README.md),
+  Lösung unter `solutions/04-10-error-und-box-dyn-error/`
 
 ### Beim Antworten
 
@@ -219,6 +221,8 @@ Not every stage stands yet. The list below names the units that really exist.
   solution at `solutions/04-08-from-into-und-fragezeichen/`
 - [04-09 TryFrom and an error type of your own](units/04-09-tryfrom-und-fehlertyp/README.md),
   solution at `solutions/04-09-tryfrom-und-fehlertyp/`
+- [04-10 std::error::Error and Box<dyn Error>](units/04-10-error-und-box-dyn-error/README.md),
+  solution at `solutions/04-10-error-und-box-dyn-error/`
 
 ### When answering
 
