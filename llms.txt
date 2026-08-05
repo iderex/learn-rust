@@ -54,6 +54,8 @@ wirklich gibt.
   Lösung unter `solutions/01-02-zahlen-und-einfache-typen/`
 - [01-03 Funktionen](units/01-03-funktionen/README.md), Lösung unter
   `solutions/01-03-funktionen/`
+- [01-04 Kommentare und cargo fmt](units/01-04-kommentare-und-cargo-fmt/README.md),
+  Lösung unter `solutions/01-04-kommentare-und-cargo-fmt/`
 - [02-01 Verschieben / Move](units/02-01-move/README.md), Lösung unter
   `solutions/02-01-move/`
 
@@ -125,6 +127,8 @@ Not every stage stands yet. The list below names the units that really exist.
   solution at `solutions/01-02-zahlen-und-einfache-typen/`
 - [01-03 Functions](units/01-03-funktionen/README.md), solution at
   `solutions/01-03-funktionen/`
+- [01-04 Comments and cargo fmt](units/01-04-kommentare-und-cargo-fmt/README.md),
+  solution at `solutions/01-04-kommentare-und-cargo-fmt/`
 - [02-01 Verschieben / Move](units/02-01-move/README.md), solution at
   `solutions/02-01-move/`
 
