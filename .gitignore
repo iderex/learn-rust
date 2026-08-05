@@ -1,0 +1,10 @@
+# Deutsch: Der Bauordner beider Workspaces. `units/.gitignore` hält denselben
+# Ordner unter `units/` heraus, weil dort ein zweiter Workspace liegt.
+# `Cargo.lock` bleibt dagegen im Repository, damit die Fassung der Abhaengigkeiten
+# festliegt, sobald es welche gibt.
+#
+# English: the build folder of both workspaces. `units/.gitignore` holds the same
+# folder out under `units/`, because a second workspace lives there. `Cargo.lock`
+# stays in the repository instead, so the version of the dependencies is fixed
+# once there are any.
+/target
