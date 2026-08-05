@@ -48,6 +48,8 @@ wirklich gibt.
   Lösung unter `solutions/00-02-kommandozeile-rustup-cargo/`
 - [00-03 Das erste Projekt und eine Fehlermeldung lesen](units/00-03-erstes-projekt-und-fehlermeldung/README.md),
   Lösung unter `solutions/00-03-erstes-projekt-und-fehlermeldung/`
+- [01-01 Variablen und Veränderbarkeit](units/01-01-variablen-und-veraenderbarkeit/README.md),
+  Lösung unter `solutions/01-01-variablen-und-veraenderbarkeit/`
 - [02-01 Verschieben / Move](units/02-01-move/README.md), Lösung unter
   `solutions/02-01-move/`
 
@@ -113,6 +115,8 @@ Not every stage stands yet. The list below names the units that really exist.
   solution at `solutions/00-02-kommandozeile-rustup-cargo/`
 - [00-03 The first project and reading an error message](units/00-03-erstes-projekt-und-fehlermeldung/README.md),
   solution at `solutions/00-03-erstes-projekt-und-fehlermeldung/`
+- [01-01 Variables and mutability](units/01-01-variablen-und-veraenderbarkeit/README.md),
+  solution at `solutions/01-01-variablen-und-veraenderbarkeit/`
 - [02-01 Verschieben / Move](units/02-01-move/README.md), solution at
   `solutions/02-01-move/`
 
