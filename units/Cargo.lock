@@ -133,3 +133,7 @@ version = "0.1.0"
 [[package]]
 name = "unit-05-02-traits"
 version = "0.1.0"
+
+[[package]]
+name = "unit-05-03-trait-bounds"
+version = "0.1.0"

@@ -108,6 +108,8 @@ wirklich gibt.
   unter `solutions/05-01-generische-typen/`
 - [05-02 Traits](units/05-02-traits/README.md), Lösung unter
   `solutions/05-02-traits/`
+- [05-03 Trait Bounds](units/05-03-trait-bounds/README.md), Lösung unter
+  `solutions/05-03-trait-bounds/`
 
 ### Beim Antworten
 
@@ -231,6 +233,8 @@ Not every stage stands yet. The list below names the units that really exist.
   `solutions/05-01-generische-typen/`
 - [05-02 Traits](units/05-02-traits/README.md), solution at
   `solutions/05-02-traits/`
+- [05-03 Trait bounds](units/05-03-trait-bounds/README.md), solution at
+  `solutions/05-03-trait-bounds/`
 
 ### When answering
 
