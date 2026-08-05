@@ -68,6 +68,8 @@ wirklich gibt.
   `solutions/02-03-ausleihen/`
 - [02-04 Veränderbares Ausleihen](units/02-04-veraenderbares-ausleihen/README.md),
   Lösung unter `solutions/02-04-veraenderbares-ausleihen/`
+- [02-05 Slices](units/02-05-slices/README.md), Lösung unter
+  `solutions/02-05-slices/`
 
 ### Beim Antworten
 
@@ -151,6 +153,8 @@ Not every stage stands yet. The list below names the units that really exist.
   `solutions/02-03-ausleihen/`
 - [02-04 Mutable borrowing](units/02-04-veraenderbares-ausleihen/README.md),
   solution at `solutions/02-04-veraenderbares-ausleihen/`
+- [02-05 Slices](units/02-05-slices/README.md), solution at
+  `solutions/02-05-slices/`
 
 ### When answering
 
