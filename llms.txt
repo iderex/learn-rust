@@ -94,6 +94,8 @@ wirklich gibt.
   `solutions/04-04-vec/`
 - [04-05 String](units/04-05-string/README.md), Lösung unter
   `solutions/04-05-string/`
+- [04-06 HashMap](units/04-06-hashmap/README.md), Lösung unter
+  `solutions/04-06-hashmap/`
 
 ### Beim Antworten
 
@@ -203,6 +205,8 @@ Not every stage stands yet. The list below names the units that really exist.
   `solutions/04-04-vec/`
 - [04-05 String](units/04-05-string/README.md), solution at
   `solutions/04-05-string/`
+- [04-06 HashMap](units/04-06-hashmap/README.md), solution at
+  `solutions/04-06-hashmap/`
 
 ### When answering
 
