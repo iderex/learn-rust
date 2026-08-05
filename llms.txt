@@ -76,6 +76,8 @@ wirklich gibt.
   `solutions/03-02-methoden/`
 - [03-03 enum](units/03-03-enum/README.md), Lösung unter
   `solutions/03-03-enum/`
+- [03-04 match](units/03-04-match/README.md), Lösung unter
+  `solutions/03-04-match/`
 
 ### Beim Antworten
 
@@ -167,6 +169,8 @@ Not every stage stands yet. The list below names the units that really exist.
   `solutions/03-02-methoden/`
 - [03-03 enum](units/03-03-enum/README.md), solution at
   `solutions/03-03-enum/`
+- [03-04 match](units/03-04-match/README.md), solution at
+  `solutions/03-04-match/`
 
 ### When answering
 

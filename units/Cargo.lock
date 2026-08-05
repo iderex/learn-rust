@@ -69,3 +69,7 @@ version = "0.1.0"
 [[package]]
 name = "unit-03-03-enum"
 version = "0.1.0"
+
+[[package]]
+name = "unit-03-04-match"
+version = "0.1.0"
