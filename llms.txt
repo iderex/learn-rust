@@ -104,6 +104,8 @@ wirklich gibt.
   Lösung unter `solutions/04-09-tryfrom-und-fehlertyp/`
 - [04-10 std::error::Error und Box<dyn Error>](units/04-10-error-und-box-dyn-error/README.md),
   Lösung unter `solutions/04-10-error-und-box-dyn-error/`
+- [05-01 Generische Typen](units/05-01-generische-typen/README.md), Lösung
+  unter `solutions/05-01-generische-typen/`
 
 ### Beim Antworten
 
@@ -223,6 +225,8 @@ Not every stage stands yet. The list below names the units that really exist.
   solution at `solutions/04-09-tryfrom-und-fehlertyp/`
 - [04-10 std::error::Error and Box<dyn Error>](units/04-10-error-und-box-dyn-error/README.md),
   solution at `solutions/04-10-error-und-box-dyn-error/`
+- [05-01 Generic types](units/05-01-generische-typen/README.md), solution at
+  `solutions/05-01-generische-typen/`
 
 ### When answering
 
