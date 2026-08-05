@@ -63,5 +63,9 @@ name = "unit-03-01-struct"
 version = "0.1.0"
 
 [[package]]
+name = "unit-03-02-methoden"
+version = "0.1.0"
+
+[[package]]
 name = "xtask"
 version = "0.1.0"
