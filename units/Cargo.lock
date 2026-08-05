@@ -45,3 +45,7 @@ version = "0.1.0"
 [[package]]
 name = "unit-02-02-stack-und-heap"
 version = "0.1.0"
+
+[[package]]
+name = "unit-02-03-ausleihen"
+version = "0.1.0"
