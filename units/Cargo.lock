@@ -137,3 +137,7 @@ version = "0.1.0"
 [[package]]
 name = "unit-05-03-trait-bounds"
 version = "0.1.0"
+
+[[package]]
+name = "unit-05-04-lifetimes"
+version = "0.1.0"
