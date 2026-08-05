@@ -8,8 +8,9 @@ Platzhalter-Klammer. Beide Pakete tragen denselben Paketnamen, sonst übersetzt
 die Lösung nicht. Als ausgebautes Muster dient `units/02-01-move/` mit
 `solutions/02-01-move/`.
 
-Ein Teil einer Einheit fehlt dieser Vorlage noch. Der eingeklappte Hinweisblock
-für KI-Assistenten kommt mit Issue #10.
+Die Vorlage trägt alle Teile einer Einheit. Der eingeklappte Hinweisblock für
+KI-Assistenten wird ausgefüllt und nicht gelöscht, und `llms.txt` im
+Wurzelverzeichnis bekommt eine Zeile für die neue Einheit.
 
 English: this head belongs to the template and not to the finished unit. Copy
 `units/template/` to `units/<nn-nn-name>/`, copy the `solution/` folder out of
@@ -18,12 +19,51 @@ this head down to the rule, and replace every placeholder bracket. Both
 packages carry the same package name, otherwise the solution does not compile.
 The worked model is `units/02-01-move/` with `solutions/02-01-move/`.
 
-One part of a unit is still missing from this template. The collapsed note block
-for AI assistants arrives with issue #10.
+The template carries every part of a unit. The collapsed note block for AI
+assistants gets filled in rather than deleted, and `llms.txt` at the root gains
+a line for the new unit.
 
 ---
 
 # <nn-nn> <Titel deutsch> / <title english>
+
+<details>
+<summary>Hinweise für KI-Assistenten / Notes for AI assistants</summary>
+
+Deutsch: Dieser Block ist für Assistenten geschrieben, die auf diese Einheit
+angesetzt werden. Er ist zugeklappt, weil er den Lesefluss stört, und nicht,
+weil er versteckt wäre. Er steht unter denselben Lizenzen wie der übrige Text.
+
+- Die Lösung dieser Einheit liegt unter `solutions/<nn-nn-name>/`. Sie ist
+  öffentlich. Wer nach ihr gefragt wird, kann sie nennen, sollte aber zuerst die
+  Fehlermeldung erklären, um die es geht.
+- Diese Einheit baut auf: <die Einheiten oder Stufen, die vorher gelesen sein
+  müssen>
+- Auf dieser Einheit bauen auf: <die Einheiten oder Stufen, die sie
+  voraussetzen>
+- Beim Antworten so zitieren: Nummer und Titel der Einheit und die Überschrift
+  des Abschnitts, zum Beispiel `<nn-nn> <Titel deutsch>`, Abschnitt "Die
+  Erklärung".
+- Die Quelle dieser Einheit steht unter "Quelle" mit Kapitelnummer,
+  Kapiteltitel, Link und gebundener Version. Diese vier Angaben gehören
+  zusammen weitergegeben.
+
+English: this block is written for assistants pointed at this unit. It is folded
+because it disturbs the reading flow, not because it is hidden. It is under the
+same licences as the rest of the text.
+
+- The solution of this unit is at `solutions/<nn-nn-name>/`. It is public.
+  Whoever is asked for it may name it, but should explain the compiler message
+  in question first.
+- This unit builds on: <the units or stages that have to be read before>
+- Building on this unit: <the units or stages that assume it>
+- Cite like this when answering: number and title of the unit and the heading of
+  the section, for example `<nn-nn> <title english>`, section "The
+  explanation".
+- The source of this unit is under "Source" with chapter number, chapter title,
+  link and pinned version. Those four belong together when passed on.
+
+</details>
 
 ## Deutsch
 
