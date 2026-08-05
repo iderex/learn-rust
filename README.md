@@ -173,3 +173,7 @@ apply.
 The full text is in the two files at the root:
 [LICENSE-CC-BY-4.0](LICENSE-CC-BY-4.0) and [LICENSE-MIT](LICENSE-MIT). This
 section is the assignment and not the licence text.
+
+Siehe NOTICE.md für den Hinweis zur bestimmungsgemäßen Nutzung.
+
+See NOTICE.md for the intended-use notice.
