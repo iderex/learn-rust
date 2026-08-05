@@ -110,6 +110,8 @@ wirklich gibt.
   `solutions/05-02-traits/`
 - [05-03 Trait Bounds](units/05-03-trait-bounds/README.md), Lösung unter
   `solutions/05-03-trait-bounds/`
+- [05-04 Lifetimes](units/05-04-lifetimes/README.md), Lösung unter
+  `solutions/05-04-lifetimes/`
 
 ### Beim Antworten
 
@@ -235,6 +237,8 @@ Not every stage stands yet. The list below names the units that really exist.
   `solutions/05-02-traits/`
 - [05-03 Trait bounds](units/05-03-trait-bounds/README.md), solution at
   `solutions/05-03-trait-bounds/`
+- [05-04 Lifetimes](units/05-04-lifetimes/README.md), solution at
+  `solutions/05-04-lifetimes/`
 
 ### When answering
 
