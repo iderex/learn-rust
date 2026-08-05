@@ -77,3 +77,7 @@ version = "0.1.0"
 [[package]]
 name = "unit-03-05-option-und-if-let"
 version = "0.1.0"
+
+[[package]]
+name = "unit-03-06-derive-mit-debug"
+version = "0.1.0"
