@@ -88,6 +88,8 @@ wirklich gibt.
   unter `solutions/04-01-pakete-und-crates/`
 - [04-02 Module](units/04-02-module/README.md), Lösung unter
   `solutions/04-02-module/`
+- [04-03 use und Sichtbarkeit](units/04-03-use-und-sichtbarkeit/README.md),
+  Lösung unter `solutions/04-03-use-und-sichtbarkeit/`
 
 ### Beim Antworten
 
@@ -191,6 +193,8 @@ Not every stage stands yet. The list below names the units that really exist.
   solution at `solutions/04-01-pakete-und-crates/`
 - [04-02 Modules](units/04-02-module/README.md), solution at
   `solutions/04-02-module/`
+- [04-03 use and visibility](units/04-03-use-und-sichtbarkeit/README.md),
+  solution at `solutions/04-03-use-und-sichtbarkeit/`
 
 ### When answering
 
