@@ -66,6 +66,8 @@ wirklich gibt.
   `solutions/02-02-stack-und-heap/`
 - [02-03 Ausleihen](units/02-03-ausleihen/README.md), Lösung unter
   `solutions/02-03-ausleihen/`
+- [02-04 Veränderbares Ausleihen](units/02-04-veraenderbares-ausleihen/README.md),
+  Lösung unter `solutions/02-04-veraenderbares-ausleihen/`
 
 ### Beim Antworten
 
@@ -147,6 +149,8 @@ Not every stage stands yet. The list below names the units that really exist.
   `solutions/02-02-stack-und-heap/`
 - [02-03 Borrowing](units/02-03-ausleihen/README.md), solution at
   `solutions/02-03-ausleihen/`
+- [02-04 Mutable borrowing](units/02-04-veraenderbares-ausleihen/README.md),
+  solution at `solutions/02-04-veraenderbares-ausleihen/`
 
 ### When answering
 

@@ -49,3 +49,7 @@ version = "0.1.0"
 [[package]]
 name = "unit-02-03-ausleihen"
 version = "0.1.0"
+
+[[package]]
+name = "unit-02-04-veraenderbares-ausleihen"
+version = "0.1.0"
