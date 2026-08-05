@@ -11,5 +11,9 @@ name = "unit-00-02-kommandozeile-rustup-cargo"
 version = "0.1.0"
 
 [[package]]
+name = "unit-00-03-erstes-projekt-und-fehlermeldung"
+version = "0.1.0"
+
+[[package]]
 name = "unit-02-01-move"
 version = "0.1.0"
