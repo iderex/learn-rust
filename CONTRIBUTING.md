@@ -109,9 +109,11 @@ den Doku-Kommentaren. Code ist alles unter `src/`, `tests/`, `solutions/` und
 `xtask/`, dazu jede `Cargo.toml` und die Beispiele in den Doku-Kommentaren. Wer
 einen ganzen Doku-Kommentar übernimmt, hält beide Bedingungen ein.
 
-Die beiden Lizenzdateien im Wurzelverzeichnis, `LICENSE-CC-BY-4.0` und
-`LICENSE-MIT`, kommen mit Issue #8. Bis dahin ist dieser Abschnitt die
-Zuordnung und nicht der Lizenztext.
+Der volle Text steht in den beiden Dateien im Wurzelverzeichnis,
+[LICENSE-CC-BY-4.0](LICENSE-CC-BY-4.0) und [LICENSE-MIT](LICENSE-MIT). Dieser
+Abschnitt ist die Zuordnung und nicht der Lizenztext. Jede `Cargo.toml` trägt
+dazu `license = "MIT"`, und jede Einheiten-README endet mit einer Zeile, die
+auf beide Dateien zeigt.
 
 Wer einen Text unter CC BY 4.0 weiterverwendet, nennt dieses Repository als
 Quelle, verlinkt es und sagt, ob er etwas geändert hat. Für den Code unter MIT
@@ -307,9 +309,11 @@ Code is everything under `src/`, `tests/`, `solutions/` and `xtask/`, plus every
 `Cargo.toml` and the examples inside doc comments. Whoever takes a whole doc
 comment meets both conditions.
 
-The two licence files at the root, `LICENSE-CC-BY-4.0` and `LICENSE-MIT`, arrive
-with issue #8. Until then this section is the assignment and not the licence
-text.
+The full text is in the two files at the root,
+[LICENSE-CC-BY-4.0](LICENSE-CC-BY-4.0) and [LICENSE-MIT](LICENSE-MIT). This
+section is the assignment and not the licence text. Every `Cargo.toml` also
+carries `license = "MIT"`, and every unit README ends with a line pointing at
+both files.
 
 Whoever reuses a text under CC BY 4.0 names this repository as the source, links
 it, and says whether they changed anything. For the code under MIT that does not

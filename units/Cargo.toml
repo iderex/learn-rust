@@ -2,3 +2,10 @@
 resolver = "3"
 members = ["[0-9][0-9]-*"]
 exclude = ["template"]
+
+# Deutsch: Der Code dieses Repositories steht unter MIT. Die Lerntexte stehen
+# unter CC BY 4.0. Die Zuordnung steht in README.md und in CONTRIBUTING.md.
+# English: the code of this repository is under MIT. The learning texts are under
+# CC BY 4.0. The assignment is in README.md and in CONTRIBUTING.md.
+[workspace.package]
+license = "MIT"
