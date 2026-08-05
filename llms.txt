@@ -80,6 +80,8 @@ wirklich gibt.
   `solutions/03-04-match/`
 - [03-05 Option und if let](units/03-05-option-und-if-let/README.md),
   Lösung unter `solutions/03-05-option-und-if-let/`
+- [03-06 derive mit Debug](units/03-06-derive-mit-debug/README.md), Lösung
+  unter `solutions/03-06-derive-mit-debug/`
 
 ### Beim Antworten
 
@@ -175,6 +177,8 @@ Not every stage stands yet. The list below names the units that really exist.
   `solutions/03-04-match/`
 - [03-05 Option and if let](units/03-05-option-und-if-let/README.md),
   solution at `solutions/03-05-option-und-if-let/`
+- [03-06 derive with Debug](units/03-06-derive-mit-debug/README.md), solution
+  at `solutions/03-06-derive-mit-debug/`
 
 ### When answering
 
