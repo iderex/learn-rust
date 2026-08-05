@@ -82,6 +82,8 @@ wirklich gibt.
   Lösung unter `solutions/03-05-option-und-if-let/`
 - [03-06 derive mit Debug](units/03-06-derive-mit-debug/README.md), Lösung
   unter `solutions/03-06-derive-mit-debug/`
+- [03-07 Display selbst schreiben](units/03-07-display-selbst-schreiben/README.md),
+  Lösung unter `solutions/03-07-display-selbst-schreiben/`
 
 ### Beim Antworten
 
@@ -179,6 +181,8 @@ Not every stage stands yet. The list below names the units that really exist.
   solution at `solutions/03-05-option-und-if-let/`
 - [03-06 derive with Debug](units/03-06-derive-mit-debug/README.md), solution
   at `solutions/03-06-derive-mit-debug/`
+- [03-07 Writing Display by hand](units/03-07-display-selbst-schreiben/README.md),
+  solution at `solutions/03-07-display-selbst-schreiben/`
 
 ### When answering
 
