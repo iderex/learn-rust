@@ -98,6 +98,8 @@ wirklich gibt.
   `solutions/04-06-hashmap/`
 - [04-07 panic! und Result](units/04-07-panic-und-result/README.md), Lösung
   unter `solutions/04-07-panic-und-result/`
+- [04-08 From, Into und der Operator ?](units/04-08-from-into-und-fragezeichen/README.md),
+  Lösung unter `solutions/04-08-from-into-und-fragezeichen/`
 
 ### Beim Antworten
 
@@ -211,6 +213,8 @@ Not every stage stands yet. The list below names the units that really exist.
   `solutions/04-06-hashmap/`
 - [04-07 panic! and Result](units/04-07-panic-und-result/README.md), solution
   at `solutions/04-07-panic-und-result/`
+- [04-08 From, Into and the ? operator](units/04-08-from-into-und-fragezeichen/README.md),
+  solution at `solutions/04-08-from-into-und-fragezeichen/`
 
 ### When answering
 
