@@ -44,6 +44,8 @@ wirklich gibt.
 
 - [00-01 Was ein Programm ist und was ein Compiler tut](units/00-01-programm-und-compiler/README.md),
   Lösung unter `solutions/00-01-programm-und-compiler/`
+- [00-02 Kommandozeile, rustup und cargo](units/00-02-kommandozeile-rustup-cargo/README.md),
+  Lösung unter `solutions/00-02-kommandozeile-rustup-cargo/`
 - [02-01 Verschieben / Move](units/02-01-move/README.md), Lösung unter
   `solutions/02-01-move/`
 
@@ -105,6 +107,8 @@ Not every stage stands yet. The list below names the units that really exist.
 
 - [00-01 What a program is and what a compiler does](units/00-01-programm-und-compiler/README.md),
   solution at `solutions/00-01-programm-und-compiler/`
+- [00-02 The command line, rustup and cargo](units/00-02-kommandozeile-rustup-cargo/README.md),
+  solution at `solutions/00-02-kommandozeile-rustup-cargo/`
 - [02-01 Verschieben / Move](units/02-01-move/README.md), solution at
   `solutions/02-01-move/`
 
