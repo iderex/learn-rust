@@ -58,6 +58,8 @@ wirklich gibt.
   Lösung unter `solutions/01-04-kommentare-und-cargo-fmt/`
 - [01-05 if und else](units/01-05-if-und-else/README.md), Lösung unter
   `solutions/01-05-if-und-else/`
+- [01-06 Schleifen und cargo clippy](units/01-06-schleifen-und-cargo-clippy/README.md),
+  Lösung unter `solutions/01-06-schleifen-und-cargo-clippy/`
 - [02-01 Verschieben / Move](units/02-01-move/README.md), Lösung unter
   `solutions/02-01-move/`
 
@@ -133,6 +135,8 @@ Not every stage stands yet. The list below names the units that really exist.
   solution at `solutions/01-04-kommentare-und-cargo-fmt/`
 - [01-05 if and else](units/01-05-if-und-else/README.md), solution at
   `solutions/01-05-if-und-else/`
+- [01-06 Loops and cargo clippy](units/01-06-schleifen-und-cargo-clippy/README.md),
+  solution at `solutions/01-06-schleifen-und-cargo-clippy/`
 - [02-01 Verschieben / Move](units/02-01-move/README.md), solution at
   `solutions/02-01-move/`
 
