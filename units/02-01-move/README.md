@@ -239,3 +239,13 @@ cargo test
     checked against 1.97.1
 
 How to cite is written in `CONTRIBUTING.md`, and the rule is not copied here.
+
+---
+
+Deutsch: Der Text dieser Einheit steht unter CC BY 4.0, siehe
+[LICENSE-CC-BY-4.0](../../LICENSE-CC-BY-4.0). Ihr Code steht unter MIT, siehe
+[LICENSE-MIT](../../LICENSE-MIT).
+
+English: the text of this unit is under CC BY 4.0, see
+[LICENSE-CC-BY-4.0](../../LICENSE-CC-BY-4.0). Its code is under MIT, see
+[LICENSE-MIT](../../LICENSE-MIT).

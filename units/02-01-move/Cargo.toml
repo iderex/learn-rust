@@ -3,3 +3,4 @@ name = "unit-02-01-move"
 version = "0.1.0"
 edition = "2024"
 publish = false
+license = "MIT"

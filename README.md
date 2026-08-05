@@ -156,9 +156,9 @@ Wer einen Text unter CC BY 4.0 weiterverwendet, nennt dieses Repository als
 Quelle, verlinkt es und sagt, ob er etwas geändert hat. Für den Code unter MIT
 gilt das nicht.
 
-Die beiden Lizenzdateien im Wurzelverzeichnis heißen `LICENSE-CC-BY-4.0` und
-`LICENSE-MIT`. Sie kommen mit Issue #8, und bis dahin ist dieser Abschnitt die
-Zuordnung und nicht der Lizenztext.
+Der volle Text steht in den beiden Dateien im Wurzelverzeichnis:
+[LICENSE-CC-BY-4.0](LICENSE-CC-BY-4.0) und [LICENSE-MIT](LICENSE-MIT). Dieser
+Abschnitt ist die Zuordnung und nicht der Lizenztext.
 
 English: the learning texts go under CC BY 4.0, the code under MIT. Learning
 texts are this README, the README of every unit and the explanatory prose in doc
@@ -170,6 +170,6 @@ Whoever reuses a text under CC BY 4.0 names this repository as the source, links
 it, and says whether they changed anything. For the code under MIT that does not
 apply.
 
-The two licence files at the root are called `LICENSE-CC-BY-4.0` and
-`LICENSE-MIT`. They arrive with issue #8, and until then this section is the
-assignment and not the licence text.
+The full text is in the two files at the root:
+[LICENSE-CC-BY-4.0](LICENSE-CC-BY-4.0) and [LICENSE-MIT](LICENSE-MIT). This
+section is the assignment and not the licence text.

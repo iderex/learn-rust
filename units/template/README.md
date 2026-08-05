@@ -8,9 +8,8 @@ Platzhalter-Klammer. Beide Pakete tragen denselben Paketnamen, sonst übersetzt
 die Lösung nicht. Als ausgebautes Muster dient `units/02-01-move/` mit
 `solutions/02-01-move/`.
 
-Zwei Teile einer Einheit fehlen dieser Vorlage noch. Der eingeklappte
-Hinweisblock für KI-Assistenten kommt mit Issue #10, die Schlusszeile mit den
-Verweisen auf beide Lizenzdateien kommt mit Issue #8.
+Ein Teil einer Einheit fehlt dieser Vorlage noch. Der eingeklappte Hinweisblock
+für KI-Assistenten kommt mit Issue #10.
 
 English: this head belongs to the template and not to the finished unit. Copy
 `units/template/` to `units/<nn-nn-name>/`, copy the `solution/` folder out of
@@ -19,9 +18,8 @@ this head down to the rule, and replace every placeholder bracket. Both
 packages carry the same package name, otherwise the solution does not compile.
 The worked model is `units/02-01-move/` with `solutions/02-01-move/`.
 
-Two parts of a unit are still missing from this template. The collapsed note
-block for AI assistants arrives with issue #10, and the closing line pointing at
-both licence files arrives with issue #8.
+One part of a unit is still missing from this template. The collapsed note block
+for AI assistants arrives with issue #10.
 
 ---
 
@@ -140,3 +138,13 @@ cargo test
     checked against <version>
 
 How to cite is written in `CONTRIBUTING.md`, and the rule is not copied here.
+
+---
+
+Deutsch: Der Text dieser Einheit steht unter CC BY 4.0, siehe
+[LICENSE-CC-BY-4.0](../../LICENSE-CC-BY-4.0). Ihr Code steht unter MIT, siehe
+[LICENSE-MIT](../../LICENSE-MIT).
+
+English: the text of this unit is under CC BY 4.0, see
+[LICENSE-CC-BY-4.0](../../LICENSE-CC-BY-4.0). Its code is under MIT, see
+[LICENSE-MIT](../../LICENSE-MIT).
