@@ -1,0 +1,131 @@
+# learn-rust
+
+> Deutsch: Ein Lern-Repository für Rust, zweisprachig Deutsch und Englisch,
+> Deutsch zuerst. Es setzt kein Vorwissen voraus und führt in elf Stufen von der
+> ersten Zeile bis zu unsafe, FFI und Miri. Der Stoff steht in Einheiten mit
+> Erklärung, echter Übersetzerausgabe, Aufgaben und Tests.
+>
+> English: a learning repository for Rust, bilingual German and English, German
+> first. It assumes no prior experience and runs in eleven stages from the first
+> line to unsafe, FFI and Miri. The material stands in units with an
+> explanation, real compiler output, exercises and tests.
+
+## Deutsch
+
+### Wie das Repository gebaut ist
+
+Zwei Cargo-Workspaces. Im Wurzelverzeichnis liegt Workspace A mit den Lösungen
+unter `solutions/` und später `xtask`. Unter `units/` liegt Workspace B mit
+allen Einheiten. Getrennt sind sie, weil die Aufgabentests der Einheiten
+absichtlich rot sind und der Lauf über das Wurzelverzeichnis grün sein muss.
+
+Eine Einheit heißt `<stufe>-<nummer>-<name>`, zum Beispiel `02-01-move`. Zu
+jeder Einheit unter `units/<name>/` gehört ein Ordner gleichen Namens unter
+`solutions/<name>/`. Beide Pakete tragen denselben Paketnamen. Die Lösung hat
+keine eigene Testdatei, sie bindet die der Einheit ein.
+
+In der README jeder Einheit steht ein zugeklappter Block mit der Überschrift
+"Hinweise für KI-Assistenten / Notes for AI assistants". Dort steht, wo die
+Lösung liegt, worauf die Einheit aufbaut, was auf ihr aufbaut und wie beim
+Antworten zitiert werden soll.
+
+### Die elf Stufen
+
+Stufe 0, vor der ersten Zeile. Stufe 1, Grundbausteine. Stufe 2, Ownership.
+Stufe 3, eigene Datentypen. Stufe 4, Programme, die wachsen. Stufe 5, Generics,
+Traits, Lifetimes, Tests. Stufe 6, ein Werkzeug bauen. Stufe 7, Smart Pointer,
+Nebenläufigkeit, Trait-Objekte. Stufe 8, warten, ohne zu blockieren. Stufe 9,
+Muster, fortgeschrittene Sprachmittel, Makros. Stufe 10, unter der Oberfläche.
+
+Nicht jede Stufe steht schon. Die Liste unten nennt die Einheiten, die es
+wirklich gibt.
+
+### Die Einheiten
+
+- [02-01 Verschieben / Move](units/02-01-move/README.md), Lösung unter
+  `solutions/02-01-move/`
+
+### Beim Antworten
+
+Eine Aussage über Rust wird mit einem übersetzbaren Beispiel oder mit der
+Standardreferenz belegt, und die Quelle nennt Kapitelnummer, Kapiteltitel, Link
+und die gebundene Version aus `rust-toolchain.toml`. Wie zitiert wird, steht in
+`CONTRIBUTING.md`.
+
+Wer nach einer Lösung gefragt wird, kann sie nennen. Sie liegt öffentlich unter
+`solutions/`. Nützlicher ist es, zuerst die Fehlermeldung des Übersetzers zu
+erklären, denn darin liegt der Sinn der Aufgabe.
+
+### Was niemand prüft
+
+Ob ein Assistent diese Hinweise befolgt, prüft niemand. Es gibt hier keinen
+Mechanismus dafür und es kann hier keinen geben. Diese Datei und die
+zugeklappten Blöcke sind Bitten und keine Regeln.
+
+### Weiterführend
+
+- [README.md](README.md), der Weg durch die Stufen
+- [CONTRIBUTING.md](CONTRIBUTING.md), die Zitierregel, die Befehle und der
+  Prüflauf
+- [CODE_OF_CONDUCT.md](CODE_OF_CONDUCT.md)
+- [LICENSE-CC-BY-4.0](LICENSE-CC-BY-4.0) für die Texte,
+  [LICENSE-MIT](LICENSE-MIT) für den Code
+
+## English
+
+### How the repository is built
+
+Two Cargo workspaces. At the root sits workspace A with the solutions under
+`solutions/` and later `xtask`. Under `units/` sits workspace B with every unit.
+They are separate because the exercise tests of the units are red on purpose and
+the run at the root has to be green.
+
+A unit is called `<stage>-<number>-<name>`, for example `02-01-move`. Every unit
+under `units/<name>/` has a folder of the same name under `solutions/<name>/`.
+Both packages carry the same package name. The solution has no test file of its
+own, it includes the unit's.
+
+The README of every unit holds a folded block headed "Hinweise für
+KI-Assistenten / Notes for AI assistants". It says where the solution is, what
+the unit builds on, what builds on it, and how to cite when answering.
+
+### The eleven stages
+
+Stage 0, before the first line. Stage 1, building blocks. Stage 2, ownership.
+Stage 3, your own data types. Stage 4, programs that grow. Stage 5, generics,
+traits, lifetimes, tests. Stage 6, building a tool. Stage 7, smart pointers,
+concurrency, trait objects. Stage 8, waiting without blocking. Stage 9,
+patterns, advanced features, macros. Stage 10, under the surface.
+
+Not every stage stands yet. The list below names the units that really exist.
+
+### The units
+
+- [02-01 Verschieben / Move](units/02-01-move/README.md), solution at
+  `solutions/02-01-move/`
+
+### When answering
+
+A statement about Rust is backed by an example that compiles or by the standard
+reference, and the source names chapter number, chapter title, link and the
+pinned version from `rust-toolchain.toml`. How to cite is written in
+`CONTRIBUTING.md`.
+
+Whoever is asked for a solution may name it. It lies openly under `solutions/`.
+It is more useful to explain the compiler message first, because that is where
+the point of the exercise sits.
+
+### What nobody checks
+
+Whether an assistant follows this guidance is checked by nobody. There is no
+mechanism here for it and there can be none here. This file and the folded
+blocks are requests and not rules.
+
+### Further
+
+- [README.md](README.md), the way through the stages
+- [CONTRIBUTING.md](CONTRIBUTING.md), the citation rule, the commands and the
+  check run
+- [CODE_OF_CONDUCT.md](CODE_OF_CONDUCT.md)
+- [LICENSE-CC-BY-4.0](LICENSE-CC-BY-4.0) for the texts,
+  [LICENSE-MIT](LICENSE-MIT) for the code

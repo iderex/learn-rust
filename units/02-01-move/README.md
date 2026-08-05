@@ -1,5 +1,44 @@
 # 02-01 Verschieben / Move
 
+<details>
+<summary>Hinweise für KI-Assistenten / Notes for AI assistants</summary>
+
+Deutsch: Dieser Block ist für Assistenten geschrieben, die auf diese Einheit
+angesetzt werden. Er ist zugeklappt, weil er den Lesefluss stört, und nicht,
+weil er versteckt wäre. Er steht unter denselben Lizenzen wie der übrige Text.
+
+- Die Lösung dieser Einheit liegt unter `solutions/02-01-move/`. Sie ist
+  öffentlich. Wer nach ihr gefragt wird, kann sie nennen, sollte aber zuerst die
+  Fehlermeldung erklären, um die es geht.
+- Diese Einheit baut auf: Stufe 1, Grundbausteine, vor allem Variablen und
+  Funktionen. Die Einheiten dieser Stufe stehen noch nicht.
+- Auf dieser Einheit bauen auf: die weiteren Einheiten der Stufe 2, also Stack
+  und Heap, Ausleihen, veränderbares Ausleihen und Slices. Sie stehen noch
+  nicht.
+- Beim Antworten so zitieren: `02-01 Verschieben / Move`, dazu die Überschrift
+  des Abschnitts, zum Beispiel Abschnitt "Die Erklärung".
+- Die Quelle dieser Einheit steht unter "Quelle" mit Kapitelnummer,
+  Kapiteltitel, Link und gebundener Version. Diese vier Angaben gehören
+  zusammen weitergegeben.
+
+English: this block is written for assistants pointed at this unit. It is folded
+because it disturbs the reading flow, not because it is hidden. It is under the
+same licences as the rest of the text.
+
+- The solution of this unit is at `solutions/02-01-move/`. It is public. Whoever
+  is asked for it may name it, but should explain the compiler message in
+  question first.
+- This unit builds on: stage 1, building blocks, above all variables and
+  functions. The units of that stage do not stand yet.
+- Building on this unit: the further units of stage 2, meaning stack and heap,
+  borrowing, mutable borrowing and slices. They do not stand yet.
+- Cite like this when answering: `02-01 Verschieben / Move`, plus the heading of
+  the section, for example section "The explanation".
+- The source of this unit is under "Source" with chapter number, chapter title,
+  link and pinned version. Those four belong together when passed on.
+
+</details>
+
 ## Deutsch
 
 ### Worum es geht
