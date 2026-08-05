@@ -423,16 +423,19 @@ cargo test
 
 Deutsch: Der Prüflauf geht über beide Workspaces, und alle Befehle werden aus dem
 Wurzelverzeichnis heraus abgeschickt. Die ersten drei gehen über Workspace A, also
-über die Lösungen, und der muss grün sein. Die letzten beiden gehen über Workspace
-B unter `units/`. Die Einheiten müssen übersetzen und formatiert sein, ihre
-Aufgabentests sind aber absichtlich rot, und deshalb steht für sie kein
-`cargo test` im Block.
+über die Lösungen und `xtask`, und der muss grün sein. Die nächsten beiden gehen
+über Workspace B unter `units/`. Die Einheiten müssen übersetzen und formatiert
+sein, ihre Aufgabentests sind aber absichtlich rot, und deshalb steht für sie
+kein `cargo test` im Block. Der letzte Befehl sieht sich den Baum als Ganzes an
+und sagt selbst, was er angesehen hat und was er nicht ansieht.
 
 English: the check run goes over both workspaces, and every command is sent from
-the root directory. The first three go over workspace A, meaning the solutions,
-and that one has to be green. The last two go over workspace B under `units/`.
-The units have to compile and be formatted, but their exercise tests are red on
-purpose, and that is why no `cargo test` for them is in the block.
+the root directory. The first three go over workspace A, meaning the solutions
+and `xtask`, and that one has to be green. The next two go over workspace B under
+`units/`. The units have to compile and be formatted, but their exercise tests
+are red on purpose, and that is why no `cargo test` for them is in the block. The
+last command looks at the tree as a whole and says for itself what it examined
+and what it does not examine.
 
 ```console
 cargo fmt --all --check
@@ -440,6 +443,7 @@ cargo clippy --workspace --all-targets -- -D warnings
 cargo test --workspace
 cargo fmt --manifest-path units/Cargo.toml --all --check
 cargo clippy --manifest-path units/Cargo.toml --workspace --all-targets -- -D warnings
+cargo run -p xtask -- check
 ```
 
 Deutsch: Dass `--manifest-path` die Einheiten wirklich erreicht, ist gemessen und
@@ -458,27 +462,34 @@ therefore exist because one does not reach the other.
 ### Was der Lauf nicht erreicht / What the run does not reach
 
 Deutsch: `units/template/` liegt in keinem der beiden Workspaces. Im
-Wurzelverzeichnis führt `members` nur `solutions/*`, und `units/Cargo.toml` führt
-`template` unter `exclude`. Kein Befehl des Blocks sieht die Vorlage an. Ein
-Fehler in der Vorlage fällt heute nur beim Lesen auf.
+Wurzelverzeichnis führt `members` nur `solutions/*` und `xtask`, und
+`units/Cargo.toml` führt `template` unter `exclude`. Die Vorlage wird also
+weder übersetzt noch formatiert geprüft. Der letzte Befehl liest sie als Text
+und sieht dort den Hinweisblock und die Namen der Dateien an, mehr nicht.
+
+Was der letzte Befehl nicht beantwortet, gibt er selbst aus, statt es nur hier
+stehen zu haben. Kurz gefasst: ob die beiden Sprachfassungen dasselbe sagen, ob
+eine genannte Quelle ihre Behauptung trägt, ob ein Commit die
+`Signed-off-by`-Zeile trägt und ob ein Assistent den Hinweisen folgt. Nichts
+davon kann er lesen.
 
 Automatisch läuft nichts davon. Es gibt keinen Ablauf, der den Prüflauf bei einem
 Pull Request anstößt. Solange das so ist, hängt die Prüfung eines fremden
 Beitrags an einem Menschen, und eine fehlende `Signed-off-by`-Zeile fällt nur
 beim Lesen auf.
 
-`cargo run -p xtask -- check` steht noch nicht im Block, weil es `xtask` noch
-nicht gibt. Es kommt mit Issue #5 dazu, und zwar hier und an keiner zweiten
-Stelle.
-
 English: `units/template/` is in neither workspace. At the root `members` lists
-only `solutions/*`, and `units/Cargo.toml` lists `template` under `exclude`. No
-command in the block looks at the template. A fault in the template is caught
-today only by reading.
+only `solutions/*` and `xtask`, and `units/Cargo.toml` lists `template` under
+`exclude`. The template is therefore neither compiled nor checked for
+formatting. The last command reads it as text and looks at the note block and at
+the names of the files there, and at nothing else.
+
+What the last command does not answer it prints for itself rather than only
+having it written here. Briefly: whether the two language versions say the same
+thing, whether a named source carries its claim, whether a commit carries the
+`Signed-off-by` line, and whether an assistant follows the guidance. It can read
+none of that.
 
 None of this runs automatically. There is no route that starts the check run on a
 pull request. While that holds, the review of an outside contribution hangs on a
 person, and a missing `Signed-off-by` line is caught only by reading.
-
-`cargo run -p xtask -- check` is not in the block yet, because `xtask` does not
-exist yet. It joins with issue #5, here and at no second place.
