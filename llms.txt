@@ -100,6 +100,8 @@ wirklich gibt.
   unter `solutions/04-07-panic-und-result/`
 - [04-08 From, Into und der Operator ?](units/04-08-from-into-und-fragezeichen/README.md),
   Lösung unter `solutions/04-08-from-into-und-fragezeichen/`
+- [04-09 TryFrom und ein eigener Fehlertyp](units/04-09-tryfrom-und-fehlertyp/README.md),
+  Lösung unter `solutions/04-09-tryfrom-und-fehlertyp/`
 
 ### Beim Antworten
 
@@ -215,6 +217,8 @@ Not every stage stands yet. The list below names the units that really exist.
   at `solutions/04-07-panic-und-result/`
 - [04-08 From, Into and the ? operator](units/04-08-from-into-und-fragezeichen/README.md),
   solution at `solutions/04-08-from-into-und-fragezeichen/`
+- [04-09 TryFrom and an error type of your own](units/04-09-tryfrom-und-fehlertyp/README.md),
+  solution at `solutions/04-09-tryfrom-und-fehlertyp/`
 
 ### When answering
 
