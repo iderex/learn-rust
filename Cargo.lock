@@ -91,5 +91,9 @@ name = "unit-04-01-pakete-und-crates"
 version = "0.1.0"
 
 [[package]]
+name = "unit-04-02-module"
+version = "0.1.0"
+
+[[package]]
 name = "xtask"
 version = "0.1.0"
