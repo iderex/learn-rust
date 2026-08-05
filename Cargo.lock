@@ -83,5 +83,9 @@ name = "unit-03-06-derive-mit-debug"
 version = "0.1.0"
 
 [[package]]
+name = "unit-03-07-display-selbst-schreiben"
+version = "0.1.0"
+
+[[package]]
 name = "xtask"
 version = "0.1.0"
