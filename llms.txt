@@ -106,6 +106,8 @@ wirklich gibt.
   Lösung unter `solutions/04-10-error-und-box-dyn-error/`
 - [05-01 Generische Typen](units/05-01-generische-typen/README.md), Lösung
   unter `solutions/05-01-generische-typen/`
+- [05-02 Traits](units/05-02-traits/README.md), Lösung unter
+  `solutions/05-02-traits/`
 
 ### Beim Antworten
 
@@ -227,6 +229,8 @@ Not every stage stands yet. The list below names the units that really exist.
   solution at `solutions/04-10-error-und-box-dyn-error/`
 - [05-01 Generic types](units/05-01-generische-typen/README.md), solution at
   `solutions/05-01-generische-typen/`
+- [05-02 Traits](units/05-02-traits/README.md), solution at
+  `solutions/05-02-traits/`
 
 ### When answering
 
