@@ -23,5 +23,9 @@ name = "unit-01-02-zahlen-und-einfache-typen"
 version = "0.1.0"
 
 [[package]]
+name = "unit-01-03-funktionen"
+version = "0.1.0"
+
+[[package]]
 name = "unit-02-01-move"
 version = "0.1.0"
