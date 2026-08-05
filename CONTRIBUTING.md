@@ -378,20 +378,27 @@ The code of conduct is in `CODE_OF_CONDUCT.md` and holds for everything here.
 Deutsch: Zwei Arten von Befehlen kommen vor. Die einen braucht, wer eine Einheit
 löst. Die anderen prüfen das Repository als Ganzes.
 
-Beide Blöcke stehen genau einmal im Repository, und dieser Abschnitt ist diese
-eine Stelle. Sie sind nicht nach Sprachen getrennt, denn ein zweiter Abdruck
-unter `## English` wäre schon der zweite Ort, und genau davor soll die Regel
-schützen. Wie viele Befehle der Prüflauf hat, steht nirgends als Zahl. Wer sie
-zählen will, liest den Block.
+Der Prüflauf steht genau einmal im Repository, und dieser Abschnitt ist diese
+eine Stelle. Deshalb sind die Blöcke hier auch nicht nach Sprachen getrennt: ein
+zweiter Abdruck unter `## English` wäre schon der zweite Ort. Wie viele Befehle
+der Prüflauf hat, steht nirgends als Zahl. Wer sie zählen will, liest den Block.
+
+Für die beiden Befehle des Lernenden gilt das nicht. Sie stehen zusätzlich in
+der README jeder Einheit, weil dort der Ordner genau dieser Einheit dasteht und
+weil man sie beim Lösen dort liest und nicht hier. Das ist gewollt.
 
 English: two kinds of command appear. One kind is what somebody solving a unit
 needs. The other checks the repository as a whole.
 
-Both blocks stand exactly once in the repository, and this section is that one
-place. They are not split by language, because a second printing under
-`## English` would already be the second place, and that is what the rule guards
-against. How many commands the check run has is written nowhere as a number.
-Whoever wants to count them reads the block.
+The check run stands exactly once in the repository, and this section is that one
+place. That is also why the blocks here are not split by language: a second
+printing under `## English` would already be the second place. How many commands
+the check run has is written nowhere as a number. Whoever wants to count them
+reads the block.
+
+For the learner's two commands that does not hold. They also stand in the README
+of every unit, because there the folder of that very unit is written out and
+because somebody solving reads them there and not here. That is intended.
 
 ### Beim Lösen einer Einheit / While solving a unit
 
