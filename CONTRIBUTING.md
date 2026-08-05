@@ -1,18 +1,64 @@
 # Beitragen / Contributing
 
-Diese Datei ist noch nicht vollständig. Sie trägt heute die Zitierregel und die
-Befehle. Es fehlen der Einstieg mit rustup, die Zweisprachigkeitsregel, der
-Aufbau einer Einheit, die Lizenz, der DCO mit `git commit -s`, der Ablauf für
-Beiträge und der Umgangston. Diese Teile gehören zu Issue #9. Dieser Absatz wird
-entfernt, sobald sie hier stehen.
+Deutsch: Dieses Repository ist zum Rust-Lernen da, von der ersten Zeile an und
+ohne vorausgesetztes Vorwissen. Fragen von Anfängern sind sein Zweck und nicht
+seine Störung. Wer beiträgt, findet hier, wie das geht.
 
-This file is not complete yet. Today it carries the citation rule and the
-commands. Missing are how to start with rustup, the bilingual rule, how a unit is
-built, the licence, the DCO with `git commit -s`, the process for contributions
-and the tone. Those parts belong to issue #9. This paragraph goes as soon as they
-are here.
+English: this repository exists for learning Rust, from the first line on and
+with no prior experience assumed. Questions from beginners are its point and not
+an interruption to it. Whoever contributes finds here how that works.
 
 ## Deutsch
+
+### Anfangen
+
+Geklont wird wie üblich.
+
+    git clone https://github.com/iderex/learn-rust.git
+    cd learn-rust
+
+Die Version des Übersetzers wird nicht ausgesucht. Sie steht in
+`rust-toolchain.toml`, und rustup holt und benutzt sie beim ersten Befehl in
+diesem Verzeichnis von selbst. Wer rustup noch nicht hat, holt es von
+https://rustup.rs. Ob die richtige Fassung greift, zeigt der Übersetzer selbst.
+
+    rustc --version
+
+Steht dort eine andere Nummer als in `rust-toolchain.toml`, wurde der Befehl
+außerhalb des Repositories abgeschickt.
+
+Die Befehle für die tägliche Arbeit stehen weiter unten unter
+"Die Befehle / The commands" und werden hier nicht abgeschrieben.
+
+### Zweisprachig, Deutsch zuerst
+
+Jeder Text in diesem Repository steht auf Deutsch und auf Englisch, und Deutsch
+steht vorn. Das gilt für die README jeder Einheit, für die Doku-Kommentare und
+für die Rümpfe von Issues und Pull Requests.
+
+Die beiden Abschnitte sollen dasselbe sagen. Sie sind keine Wort-für-Wort
+Übersetzung voneinander, aber was der eine erklärt, erklärt der andere auch,
+mit denselben Beispielen und denselben Fehlernummern. Ein englischer Einzeiler
+unter einem langen deutschen Abschnitt ist kein zweisprachiger Text.
+
+Ob die beiden Fassungen wirklich dasselbe sagen, entscheidet ein Mensch beim
+Lesen. Keine Prüfung beantwortet das.
+
+### Wie eine Einheit aufgebaut ist
+
+Eine Einheit liegt zweimal im Repository. Unter `units/<nn-nn-name>/` liegt die
+Aufgabe: die README mit der Erklärung, `src/lib.rs` mit den Rümpfen, die
+`todo!()` sind, und `tests/exercise.rs` mit den Tests, die deshalb rot sind.
+Unter `solutions/<nn-nn-name>/` liegt die Lösung. Sie hat keine eigene
+Testdatei, sondern bindet die der Einheit ein, damit beide Seiten gegen genau
+dieselben Tests laufen.
+
+Beide Pakete tragen denselben Paketnamen, sonst übersetzt die Lösung nicht. Sie
+stören einander trotzdem nicht, weil sie in verschiedenen Workspaces liegen.
+
+Das ausgebaute Muster ist `units/02-01-move/` mit `solutions/02-01-move/`. Wer
+eine neue Einheit anlegt, sieht dort nach und kopiert `units/template/`. Wie das
+geht, steht im Kopf der Vorlage.
 
 ### Quellen angeben
 
@@ -55,7 +101,164 @@ entscheidet ein Mensch beim Lesen. Issue #5 plant eine Prüfung, die nachsieht,
 ob jede Einheit eine Quelle mit Kapiteltitel und gebundener Version nennt. Ob
 eine Quelle stimmt, wird auch die nicht beantworten.
 
+### Lizenz und die Zeile Signed-off-by
+
+Die Lerntexte stehen unter CC BY 4.0, der Code unter MIT. Lerntexte sind die
+README im Wurzelverzeichnis und in jeder Einheit und der erklärende Fließtext in
+den Doku-Kommentaren. Code ist alles unter `src/`, `tests/`, `solutions/` und
+`xtask/`, dazu jede `Cargo.toml` und die Beispiele in den Doku-Kommentaren. Wer
+einen ganzen Doku-Kommentar übernimmt, hält beide Bedingungen ein.
+
+Die beiden Lizenzdateien im Wurzelverzeichnis, `LICENSE-CC-BY-4.0` und
+`LICENSE-MIT`, kommen mit Issue #8. Bis dahin ist dieser Abschnitt die
+Zuordnung und nicht der Lizenztext.
+
+Wer einen Text unter CC BY 4.0 weiterverwendet, nennt dieses Repository als
+Quelle, verlinkt es und sagt, ob er etwas geändert hat. Für den Code unter MIT
+gilt das nicht.
+
+Jeder Commit trägt eine `Signed-off-by`-Zeile. Sie entsteht von selbst mit
+`git commit -s` und ist die Zustimmung zum Developer Certificate of Origin. Mit
+ihr sagst du, dass du das Recht hast, diesen Beitrag unter der Lizenz des
+Projekts einzureichen.
+
+Der folgende Text steht nur auf Englisch, weil es keine verbindliche deutsche
+Fassung von ihm gibt und eine selbst übersetzte etwas anderes bedeuten könnte.
+
+    Developer's Certificate of Origin 1.1
+
+    By making a contribution to this project, I certify that:
+
+    (a) The contribution was created in whole or in part by me and I
+        have the right to submit it under the open source license
+        indicated in the file; or
+
+    (b) The contribution is based upon previous work that, to the best
+        of my knowledge, is covered under an appropriate open source
+        license and I have the right under that license to submit that
+        work with modifications, whether created in whole or in part
+        by me, under the same open source license (unless I am
+        permitted to submit under a different license), as indicated
+        in the file; or
+
+    (c) The contribution was provided directly to me by some other
+        person who certified (a), (b) or (c) and I have not modified
+        it.
+
+    (d) I understand and agree that this project and the contribution
+        are public and that a record of the contribution (including all
+        personal information I submit with it, including my sign-off) is
+        maintained indefinitely and may be redistributed consistent with
+        this project or the open source license(s) involved.
+
+Der vollständige Text mit seinem Urheberrechtsvermerk steht unter
+https://developercertificate.org.
+
+Ob eine `Signed-off-by`-Zeile da ist, prüft heute nichts von selbst. Sie fällt
+nur beim Lesen auf, und das steht hier, damit ihr Fehlen nicht für unmöglich
+gehalten wird.
+
+### Der Ablauf
+
+Zuerst ein Issue, dann ein Pull Request. Ausgenommen sind Tippfehler und kaputte
+Links; die dürfen direkt als Pull Request kommen.
+
+Ein Pull Request trägt eine Einheit oder einen Text, nicht zwei. Wer zwei
+Einheiten in einen packt, bekommt ihn mit der Bitte zurück, ihn zu teilen. Der
+Grund ist nicht Ordnungsliebe: zwei Einheiten in einem Rumpf bedeuten eine
+Beschreibung, die eine von beiden meint.
+
+Der Rumpf nennt sein Issue und trägt die Ausgabe des Prüflaufs. Lief ein Befehl
+nicht, steht dort, welcher und warum. Ein leerer Abschnitt heißt nicht, dass
+alles grün war.
+
+Zusammengeführt wird von jemandem, der den Beitrag nicht geschrieben hat.
+Solange nur eine Person dieses Repository pflegt, gilt das für Beiträge von
+außen und nicht für die eigenen. Ein eigener Beitrag wird also ohne zweiten
+Leser zusammengeführt, und der Rumpf sagt das dann auch.
+
+### Einsprachige Beiträge
+
+Ein Beitrag in nur einer Sprache wird angenommen. Der Pull Request bekommt
+`text-de` oder `text-en`, je nachdem welche Sprache fehlt, und es wird ein
+Übersetzungs-Issue geöffnet, das offen bleibt. Fertig ist eine Einheit erst mit
+beiden Sprachen.
+
+Zwei Dinge an diesem Weg sind nicht in Ordnung, und sie stehen hier, statt beim
+Bauen aufzutauchen.
+
+Erstens kann der Beitragende den Weg über seinen Branch zumachen. In den Fork
+einer anderen Person schreiben geht nur, wenn dort "Allow edits by maintainers"
+gesetzt ist, und bei Forks im Besitz einer Organisation geht es gar nicht. Ist
+dieser Weg zu, öffnet das Projekt einen eigenen Pull Request, der die Commits mit
+ihrer Urheberschaft und ihren `Signed-off-by`-Zeilen übernimmt, und der
+ursprüngliche wird mit dem Grund in seinem Rumpf geschlossen.
+
+Zweitens läuft genau dieser Weg gegen die Regel, dass zusammenführt, wer den
+Beitrag nicht geschrieben hat, denn die ergänzte Hälfte schreibt dann die Person,
+die auch zusammenführt. Bei einer Person lässt sich das nicht auflösen.
+Stattdessen ist die ergänzte Hälfte ein eigener Commit, und der Rumpf nennt, wer
+welche Hälfte geschrieben hat. Nichts weist den Fall zurück, er wird nur sichtbar
+gemacht.
+
+### Umgangston
+
+Fragen von Anfängern sind der Zweck dieses Repositories. Eine Frage, die jemand
+für dumm hält, ist meistens die Stelle, an der ein Text zu viel vorausgesetzt
+hat, und dann ist der Text schuld und nicht die Frage.
+
+Der Verhaltenskodex steht in `CODE_OF_CONDUCT.md` und gilt für alles hier.
+
 ## English
+
+### Getting started
+
+Cloning is as usual.
+
+    git clone https://github.com/iderex/learn-rust.git
+    cd learn-rust
+
+The compiler version is not chosen by hand. It stands in `rust-toolchain.toml`,
+and rustup fetches and uses it on the first command inside this directory by
+itself. Whoever does not have rustup yet gets it from https://rustup.rs. Whether
+the right version took hold is answered by the compiler itself.
+
+    rustc --version
+
+A number different from the one in `rust-toolchain.toml` means the command was
+sent from outside the repository.
+
+The commands for daily work are further down under
+"Die Befehle / The commands" and are not copied here.
+
+### Bilingual, German first
+
+Every text in this repository stands in German and in English, and German comes
+first. That holds for the README of every unit, for the doc comments, and for the
+bodies of issues and pull requests.
+
+The two sections should say the same thing. They are not a word for word
+translation of each other, but what one explains the other explains too, with the
+same examples and the same error numbers. A one line English section under a long
+German one is not a bilingual text.
+
+Whether the two versions really say the same thing is decided by a person
+reading them. No check answers that.
+
+### How a unit is built
+
+A unit lives twice in the repository. Under `units/<nn-nn-name>/` lives the
+exercise: the README with the explanation, `src/lib.rs` with the bodies that are
+`todo!()`, and `tests/exercise.rs` with the tests that are therefore red. Under
+`solutions/<nn-nn-name>/` lives the solution. It has no test file of its own but
+includes the unit's, so that both sides run against exactly the same tests.
+
+Both packages carry the same package name, otherwise the solution does not
+compile. They still do not clash, because they live in different workspaces.
+
+The worked model is `units/02-01-move/` with `solutions/02-01-move/`. Whoever
+starts a new unit looks there and copies `units/template/`. How that goes is
+written in the head of the template.
 
 ### Citing sources
 
@@ -95,6 +298,80 @@ asked about in review. Whether a named source really carries the claim is
 decided by a person reading it. Issue #5 plans a check that looks at whether
 every unit names a source with chapter title and pinned version. Whether a
 source is right is not something that check will answer either.
+
+### Licence and the Signed-off-by line
+
+The learning texts go under CC BY 4.0, the code under MIT. Learning texts are the
+README at the root and in every unit and the explanatory prose in doc comments.
+Code is everything under `src/`, `tests/`, `solutions/` and `xtask/`, plus every
+`Cargo.toml` and the examples inside doc comments. Whoever takes a whole doc
+comment meets both conditions.
+
+The two licence files at the root, `LICENSE-CC-BY-4.0` and `LICENSE-MIT`, arrive
+with issue #8. Until then this section is the assignment and not the licence
+text.
+
+Whoever reuses a text under CC BY 4.0 names this repository as the source, links
+it, and says whether they changed anything. For the code under MIT that does not
+apply.
+
+Every commit carries a `Signed-off-by` line. It appears by itself with
+`git commit -s` and is the agreement to the Developer Certificate of Origin. With
+it you say that you have the right to submit this contribution under the licence
+of the project. The wording is quoted in the German section above and is not
+printed a second time here, because it is the same English text in both places.
+
+Whether a `Signed-off-by` line is present is checked by nothing today. It is
+caught only by reading, and that stands here so its absence is not taken to be
+impossible.
+
+### The process
+
+An issue first, then a pull request. Typos and broken links are the exception and
+may come straight as a pull request.
+
+A pull request carries one unit or one text, not two. Whoever packs two units
+into one gets it back with the request to split it. The reason is not tidiness:
+two units in one body mean a description that means one of them.
+
+The body names its issue and carries the output of the check run. If a command
+did not run, it says which and why. An empty section does not mean everything was
+green.
+
+A contribution is merged by somebody who did not write it. While one person
+maintains this repository, that holds for outside contributions and not for their
+own. A contribution of their own is therefore merged without a second reader, and
+the body says so when it happens.
+
+### Single language contributions
+
+A contribution in one language only is accepted. The pull request gets `text-de`
+or `text-en`, whichever language is missing, and a translation issue is opened
+and stays open. A unit counts as done only with both languages.
+
+Two things about this route are not in order, and they stand here rather than
+surfacing during the build.
+
+First, the contributor can close the route through their branch. Writing into
+somebody else's fork works only where "Allow edits by maintainers" is set, and
+for forks owned by an organisation it does not work at all. If that route is
+closed, the project opens a pull request of its own taking over the commits with
+their authorship and their `Signed-off-by` lines, and the original is closed with
+the reason in its body.
+
+Second, that same route runs against the rule that a contribution is merged by
+somebody who did not write it, because the added half is then written by the
+person who also merges. With one person that cannot be resolved. Instead the
+added half is a commit of its own, and the body names who wrote which half.
+Nothing rejects the case, it is only made visible.
+
+### Tone
+
+Questions from beginners are the point of this repository. A question somebody
+thinks is stupid is usually the place where a text assumed too much, and then the
+text is at fault and not the question.
+
+The code of conduct is in `CODE_OF_CONDUCT.md` and holds for everything here.
 
 ## Die Befehle / The commands
 
