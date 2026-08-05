@@ -70,6 +70,8 @@ wirklich gibt.
   Lösung unter `solutions/02-04-veraenderbares-ausleihen/`
 - [02-05 Slices](units/02-05-slices/README.md), Lösung unter
   `solutions/02-05-slices/`
+- [03-01 struct](units/03-01-struct/README.md), Lösung unter
+  `solutions/03-01-struct/`
 
 ### Beim Antworten
 
@@ -155,6 +157,8 @@ Not every stage stands yet. The list below names the units that really exist.
   solution at `solutions/02-04-veraenderbares-ausleihen/`
 - [02-05 Slices](units/02-05-slices/README.md), solution at
   `solutions/02-05-slices/`
+- [03-01 struct](units/03-01-struct/README.md), solution at
+  `solutions/03-01-struct/`
 
 ### When answering
 
