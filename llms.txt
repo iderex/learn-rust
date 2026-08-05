@@ -50,6 +50,8 @@ wirklich gibt.
   Lösung unter `solutions/00-03-erstes-projekt-und-fehlermeldung/`
 - [01-01 Variablen und Veränderbarkeit](units/01-01-variablen-und-veraenderbarkeit/README.md),
   Lösung unter `solutions/01-01-variablen-und-veraenderbarkeit/`
+- [01-02 Zahlen und andere einfache Typen](units/01-02-zahlen-und-einfache-typen/README.md),
+  Lösung unter `solutions/01-02-zahlen-und-einfache-typen/`
 - [02-01 Verschieben / Move](units/02-01-move/README.md), Lösung unter
   `solutions/02-01-move/`
 
@@ -117,6 +119,8 @@ Not every stage stands yet. The list below names the units that really exist.
   solution at `solutions/00-03-erstes-projekt-und-fehlermeldung/`
 - [01-01 Variables and mutability](units/01-01-variablen-und-veraenderbarkeit/README.md),
   solution at `solutions/01-01-variablen-und-veraenderbarkeit/`
+- [01-02 Numbers and other simple types](units/01-02-zahlen-und-einfache-typen/README.md),
+  solution at `solutions/01-02-zahlen-und-einfache-typen/`
 - [02-01 Verschieben / Move](units/02-01-move/README.md), solution at
   `solutions/02-01-move/`
 
