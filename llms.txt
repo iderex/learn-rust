@@ -56,6 +56,8 @@ wirklich gibt.
   `solutions/01-03-funktionen/`
 - [01-04 Kommentare und cargo fmt](units/01-04-kommentare-und-cargo-fmt/README.md),
   Lösung unter `solutions/01-04-kommentare-und-cargo-fmt/`
+- [01-05 if und else](units/01-05-if-und-else/README.md), Lösung unter
+  `solutions/01-05-if-und-else/`
 - [02-01 Verschieben / Move](units/02-01-move/README.md), Lösung unter
   `solutions/02-01-move/`
 
@@ -129,6 +131,8 @@ Not every stage stands yet. The list below names the units that really exist.
   `solutions/01-03-funktionen/`
 - [01-04 Comments and cargo fmt](units/01-04-kommentare-und-cargo-fmt/README.md),
   solution at `solutions/01-04-kommentare-und-cargo-fmt/`
+- [01-05 if and else](units/01-05-if-und-else/README.md), solution at
+  `solutions/01-05-if-und-else/`
 - [02-01 Verschieben / Move](units/02-01-move/README.md), solution at
   `solutions/02-01-move/`
 
