@@ -90,6 +90,8 @@ wirklich gibt.
   `solutions/04-02-module/`
 - [04-03 use und Sichtbarkeit](units/04-03-use-und-sichtbarkeit/README.md),
   Lösung unter `solutions/04-03-use-und-sichtbarkeit/`
+- [04-04 Vec](units/04-04-vec/README.md), Lösung unter
+  `solutions/04-04-vec/`
 
 ### Beim Antworten
 
@@ -195,6 +197,8 @@ Not every stage stands yet. The list below names the units that really exist.
   `solutions/04-02-module/`
 - [04-03 use and visibility](units/04-03-use-und-sichtbarkeit/README.md),
   solution at `solutions/04-03-use-und-sichtbarkeit/`
+- [04-04 Vec](units/04-04-vec/README.md), solution at
+  `solutions/04-04-vec/`
 
 ### When answering
 
