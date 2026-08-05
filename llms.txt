@@ -64,6 +64,8 @@ wirklich gibt.
   `solutions/02-01-move/`
 - [02-02 Stack und Heap](units/02-02-stack-und-heap/README.md), Lösung unter
   `solutions/02-02-stack-und-heap/`
+- [02-03 Ausleihen](units/02-03-ausleihen/README.md), Lösung unter
+  `solutions/02-03-ausleihen/`
 
 ### Beim Antworten
 
@@ -143,6 +145,8 @@ Not every stage stands yet. The list below names the units that really exist.
   `solutions/02-01-move/`
 - [02-02 Stack and heap](units/02-02-stack-und-heap/README.md), solution at
   `solutions/02-02-stack-und-heap/`
+- [02-03 Borrowing](units/02-03-ausleihen/README.md), solution at
+  `solutions/02-03-ausleihen/`
 
 ### When answering
 
