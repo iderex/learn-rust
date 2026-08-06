@@ -17,6 +17,8 @@
 // parameters therefore stay unused until somebody solves them.
 #![allow(unused_variables)]
 
+fn   absichtlich_falsch_formatiert( ) {}
+
 /// Nimmt den `String` an sich und gibt ihn verändert zurück.
 ///
 /// Der Aufrufer verliert sein Eigentum an dem übergebenen Wert und bekommt mit
