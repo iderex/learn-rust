@@ -143,7 +143,7 @@ name = "unit-05-04-lifetimes"
 version = "0.1.0"
 
 [[package]]
-name = "unit-06-08-build-rs"
+name = "unit-07-02-rc"
 version = "0.1.0"
 
 [[package]]
