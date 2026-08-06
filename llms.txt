@@ -112,6 +112,8 @@ wirklich gibt.
   `solutions/05-03-trait-bounds/`
 - [05-04 Lifetimes](units/05-04-lifetimes/README.md), Lösung unter
   `solutions/05-04-lifetimes/`
+- [07-04 Deref und Drop](units/07-04-deref-und-drop/README.md), Lösung unter
+  `solutions/07-04-deref-und-drop/`
 - [09-01 Muster im Detail](units/09-01-muster-im-detail/README.md), Lösung unter
   `solutions/09-01-muster-im-detail/`
 
@@ -241,6 +243,8 @@ Not every stage stands yet. The list below names the units that really exist.
   `solutions/05-03-trait-bounds/`
 - [05-04 Lifetimes](units/05-04-lifetimes/README.md), solution at
   `solutions/05-04-lifetimes/`
+- [07-04 Deref and Drop](units/07-04-deref-und-drop/README.md), solution at
+  `solutions/07-04-deref-und-drop/`
 - [09-01 Patterns in detail](units/09-01-muster-im-detail/README.md), solution
   at `solutions/09-01-muster-im-detail/`
 
