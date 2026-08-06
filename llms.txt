@@ -114,6 +114,8 @@ wirklich gibt.
   `solutions/05-04-lifetimes/`
 - [09-01 Muster im Detail](units/09-01-muster-im-detail/README.md), Lösung unter
   `solutions/09-01-muster-im-detail/`
+- [10-08 Die Reference als Nachschlagewerk](units/10-08-die-reference-als-nachschlagewerk/README.md),
+  Lösung unter `solutions/10-08-die-reference-als-nachschlagewerk/`
 
 ### Beim Antworten
 
@@ -243,6 +245,8 @@ Not every stage stands yet. The list below names the units that really exist.
   `solutions/05-04-lifetimes/`
 - [09-01 Patterns in detail](units/09-01-muster-im-detail/README.md), solution
   at `solutions/09-01-muster-im-detail/`
+- [10-08 The Reference as a lookup](units/10-08-die-reference-als-nachschlagewerk/README.md),
+  solution at `solutions/10-08-die-reference-als-nachschlagewerk/`
 
 ### When answering
 
