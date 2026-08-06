@@ -1,0 +1,47 @@
+# Deutsch: Dieser Ablauf schickt den Prüflauf bei jedem Pull Request und bei
+# jedem Push auf main ab. Welche Befehle der Prüflauf hat, steht hier nicht.
+# Es steht in CONTRIBUTING.md, und `cargo run -p xtask -- ci` liest es von dort,
+# damit eine zweite Stelle gar nicht erst entsteht, die auseinanderlaufen kann.
+#
+# Die gebundene Version wird nicht ausgesucht. Sie steht in rust-toolchain.toml
+# samt rustfmt und clippy, und rustup holt sie beim ersten Befehl in diesem
+# Verzeichnis von selbst. Deshalb steht keine Versionsnummer in dieser Datei.
+#
+# English: this workflow sends the check run on every pull request and on every
+# push to main. Which commands the check run has is not written here. It is in
+# CONTRIBUTING.md, and `cargo run -p xtask -- ci` reads it from there, so a
+# second place that could drift never comes into being.
+#
+# The pinned version is not chosen. It is in rust-toolchain.toml together with
+# rustfmt and clippy, and rustup fetches it on the first command in this
+# directory by itself. That is why no version number stands in this file.
+
+name: Prüflauf / check run
+
+on:
+  pull_request:
+  push:
+    branches:
+      - main
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  prueflauf:
+    name: Prüflauf / check run
+    runs-on: ubuntu-latest
+    steps:
+      - name: Den Baum holen / fetch the tree
+        uses: actions/checkout@v7
+
+      - name: Die gebundene Version zeigen / show the pinned version
+        run: |
+          rustc --version
+          cargo --version
+          cargo fmt --version
+          cargo clippy --version
+
+      - name: Den Prüflauf abschicken / send the check run
+        run: cargo run -p xtask -- ci
