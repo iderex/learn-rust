@@ -198,10 +198,13 @@ note: the trait `Add` must be implemented
   --> <std>/core/src/ops/arith.rs:76:0
 
 error: aborting due to 1 previous error
+
+For more information about this error, try `rustc --explain E0369`.
 ```
 
 An `<std>` stand der Pfad zur Standardbibliothek dieses Rechners, mit der
-Prüfsumme des Übersetzers darin. Das ist die einzige Ersetzung.
+Prüfsumme des Übersetzers darin. Das ist die einzige Ersetzung, sonst steht die
+Meldung so da, wie sie kam.
 
 Die Meldung sagt beides: welchem Typ das Trait fehlt und welches Trait das ist.
 Sie nennt kein `derive`, denn `Add` lässt sich nicht ableiten. Was `+` für zwei
@@ -374,10 +377,13 @@ note: the trait `Add` must be implemented
   --> <std>/core/src/ops/arith.rs:76:0
 
 error: aborting due to 1 previous error
+
+For more information about this error, try `rustc --explain E0369`.
 ```
 
 Where `<std>` stands, the path to the standard library of this machine stood,
-with the checksum of the compiler inside it. That is the only substitution.
+with the checksum of the compiler inside it. That is the only substitution,
+otherwise the message stands as it came.
 
 The message says both things: which type is missing the trait and which trait
 that is. It names no `derive`, because `Add` cannot be derived. What `+` should
