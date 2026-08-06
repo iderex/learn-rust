@@ -147,5 +147,9 @@ name = "unit-09-01-muster-im-detail"
 version = "0.1.0"
 
 [[package]]
+name = "unit-09-05-fortgeschrittene-typen"
+version = "0.1.0"
+
+[[package]]
 name = "xtask"
 version = "0.1.0"
