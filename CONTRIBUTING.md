@@ -473,10 +473,21 @@ eine genannte Quelle ihre Behauptung trägt, ob ein Commit die
 `Signed-off-by`-Zeile trägt und ob ein Assistent den Hinweisen folgt. Nichts
 davon kann er lesen.
 
-Automatisch läuft nichts davon. Es gibt keinen Ablauf, der den Prüflauf bei einem
-Pull Request anstößt. Solange das so ist, hängt die Prüfung eines fremden
-Beitrags an einem Menschen, und eine fehlende `Signed-off-by`-Zeile fällt nur
-beim Lesen auf.
+Angestoßen wird der Prüflauf inzwischen von selbst. Unter
+`.github/workflows/prueflauf.yml` liegt ein Ablauf, der bei jedem Pull Request
+und bei jedem Push auf `main` läuft. Er schreibt die Befehle nicht ab. Er
+schickt `cargo run -p xtask -- ci` ab, und dieser Befehl liest den Block oben
+und führt seine Zeilen der Reihe nach aus, bis eine rot ist. Dieser Abschnitt
+bleibt damit die eine Stelle, an der der Prüflauf steht.
+
+Was dabei geprüft wird, hat sich nicht geändert. Es sind dieselben Befehle, und
+sie beantworten dieselben Fragen wie vorher, nur eben ohne dass jemand sie von
+Hand abschickt. Alles, was zwei Absätze weiter oben als unerreichbar dasteht,
+bleibt unerreichbar: ob die beiden Sprachfassungen dasselbe sagen, ob eine
+Quelle ihre Behauptung trägt, ob ein Assistent den Hinweisen folgt. Eine
+fehlende `Signed-off-by`-Zeile fällt weiterhin nur beim Lesen auf, denn kein
+Befehl im Block sieht sie an. Ein grüner Ablauf sagt, dass die Befehle
+durchgelaufen sind, und nicht, dass der Beitrag gelesen wurde.
 
 English: `units/template/` is in neither workspace. At the root `members` lists
 only `solutions/*` and `xtask`, and `units/Cargo.toml` lists `template` under
@@ -490,6 +501,17 @@ thing, whether a named source carries its claim, whether a commit carries the
 `Signed-off-by` line, and whether an assistant follows the guidance. It can read
 none of that.
 
-None of this runs automatically. There is no route that starts the check run on a
-pull request. While that holds, the review of an outside contribution hangs on a
-person, and a missing `Signed-off-by` line is caught only by reading.
+The check run is started by itself these days. Under
+`.github/workflows/prueflauf.yml` there is a route that runs on every pull
+request and on every push to `main`. It does not copy the commands. It sends
+`cargo run -p xtask -- ci`, and that command reads the block above and runs its
+lines in order until one of them is red. This section therefore stays the one
+place where the check run stands.
+
+What is checked has not changed. They are the same commands, and they answer the
+same questions as before, only without somebody sending them by hand. Everything
+two paragraphs above stands as out of reach stays out of reach: whether the two
+language versions say the same thing, whether a source carries its claim,
+whether an assistant follows the guidance. A missing `Signed-off-by` line is
+still caught only by reading, because no command in the block looks at it. A
+green route says the commands ran through, not that the contribution was read.
