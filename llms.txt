@@ -114,6 +114,8 @@ wirklich gibt.
   `solutions/05-04-lifetimes/`
 - [09-01 Muster im Detail](units/09-01-muster-im-detail/README.md), Lösung unter
   `solutions/09-01-muster-im-detail/`
+- [09-03 Operatorüberladung](units/09-03-operatorueberladung/README.md), Lösung
+  unter `solutions/09-03-operatorueberladung/`
 
 ### Beim Antworten
 
@@ -243,6 +245,8 @@ Not every stage stands yet. The list below names the units that really exist.
   `solutions/05-04-lifetimes/`
 - [09-01 Patterns in detail](units/09-01-muster-im-detail/README.md), solution
   at `solutions/09-01-muster-im-detail/`
+- [09-03 Operator overloading](units/09-03-operatorueberladung/README.md),
+  solution at `solutions/09-03-operatorueberladung/`
 
 ### When answering
 
