@@ -9,6 +9,8 @@
 //! function returning findings. The run also prints what it does not look at,
 //! so it is not taken for more than it does.
 
+pub mod befehle;
+
 use std::collections::{BTreeMap, BTreeSet};
 use std::fs;
 use std::io;
