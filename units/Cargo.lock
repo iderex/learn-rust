@@ -143,5 +143,9 @@ name = "unit-05-04-lifetimes"
 version = "0.1.0"
 
 [[package]]
+name = "unit-06-02-dateien-lesen-und-schreiben"
+version = "0.1.0"
+
+[[package]]
 name = "unit-09-01-muster-im-detail"
 version = "0.1.0"
