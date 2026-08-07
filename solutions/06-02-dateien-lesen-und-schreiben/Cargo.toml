@@ -1,0 +1,6 @@
+[package]
+name = "unit-06-02-dateien-lesen-und-schreiben"
+version = "0.1.0"
+edition = "2024"
+publish = false
+license = "MIT"
