@@ -135,6 +135,8 @@ wirklich gibt.
   unter `solutions/10-01-was-unsafe-erlaubt/`
 - [10-02 Rohe Zeiger](units/10-02-rohe-zeiger/README.md), Lösung unter
   `solutions/10-02-rohe-zeiger/`
+- [10-08 Die Reference als Nachschlagewerk](units/10-08-die-reference-als-nachschlagewerk/README.md),
+  Lösung unter `solutions/10-08-die-reference-als-nachschlagewerk/`
 
 ### Beim Antworten
 
@@ -285,6 +287,8 @@ Not every stage stands yet. The list below names the units that really exist.
   at `solutions/10-01-was-unsafe-erlaubt/`
 - [10-02 Raw pointers](units/10-02-rohe-zeiger/README.md), solution at
   `solutions/10-02-rohe-zeiger/`
+- [10-08 The Reference as a lookup](units/10-08-die-reference-als-nachschlagewerk/README.md),
+  solution at `solutions/10-08-die-reference-als-nachschlagewerk/`
 
 ### When answering
 

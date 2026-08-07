@@ -191,5 +191,9 @@ name = "unit-10-02-rohe-zeiger"
 version = "0.1.0"
 
 [[package]]
+name = "unit-10-08-die-reference-als-nachschlagewerk"
+version = "0.1.0"
+
+[[package]]
 name = "xtask"
 version = "0.1.0"
