@@ -157,3 +157,7 @@ version = "0.1.0"
 [[package]]
 name = "unit-09-01-muster-im-detail"
 version = "0.1.0"
+
+[[package]]
+name = "unit-09-02-assoziierte-typen"
+version = "0.1.0"
