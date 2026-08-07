@@ -143,9 +143,45 @@ name = "unit-05-04-lifetimes"
 version = "0.1.0"
 
 [[package]]
+name = "unit-05-05-tests-und-ihr-aufbau"
+version = "0.1.0"
+
+[[package]]
+name = "unit-05-06-doku-tests"
+version = "0.1.0"
+
+[[package]]
+name = "unit-06-01-argumente-von-der-kommandozeile"
+version = "0.1.0"
+
+[[package]]
+name = "unit-06-02-dateien-lesen-und-schreiben"
+version = "0.1.0"
+
+[[package]]
+name = "unit-07-01-box"
+version = "0.1.0"
+
+[[package]]
+name = "unit-07-02-rc"
+version = "0.1.0"
+
+[[package]]
+name = "unit-08-01-futures-async-und-await"
+version = "0.1.0"
+
+[[package]]
 name = "unit-09-01-muster-im-detail"
 version = "0.1.0"
 
 [[package]]
+name = "unit-09-02-assoziierte-typen"
+version = "0.1.0"
+
+[[package]]
 name = "unit-09-03-operatorueberladung"
+version = "0.1.0"
+
+[[package]]
+name = "unit-10-01-was-unsafe-erlaubt"
 version = "0.1.0"
