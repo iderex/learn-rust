@@ -133,6 +133,8 @@ wirklich gibt.
   unter `solutions/09-03-operatorueberladung/`
 - [10-01 Was unsafe erlaubt](units/10-01-was-unsafe-erlaubt/README.md), Lösung
   unter `solutions/10-01-was-unsafe-erlaubt/`
+- [10-02 Rohe Zeiger](units/10-02-rohe-zeiger/README.md), Lösung unter
+  `solutions/10-02-rohe-zeiger/`
 
 ### Beim Antworten
 
@@ -281,6 +283,8 @@ Not every stage stands yet. The list below names the units that really exist.
   solution at `solutions/09-03-operatorueberladung/`
 - [10-01 What unsafe allows](units/10-01-was-unsafe-erlaubt/README.md), solution
   at `solutions/10-01-was-unsafe-erlaubt/`
+- [10-02 Raw pointers](units/10-02-rohe-zeiger/README.md), solution at
+  `solutions/10-02-rohe-zeiger/`
 
 ### When answering
 
