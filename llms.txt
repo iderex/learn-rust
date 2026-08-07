@@ -118,6 +118,8 @@ wirklich gibt.
   `solutions/05-06-doku-tests/`
 - [06-01 Argumente von der Kommandozeile](units/06-01-argumente-von-der-kommandozeile/README.md),
   Lösung unter `solutions/06-01-argumente-von-der-kommandozeile/`
+- [06-02 Dateien lesen und schreiben](units/06-02-dateien-lesen-und-schreiben/README.md),
+  Lösung unter `solutions/06-02-dateien-lesen-und-schreiben/`
 - [07-01 Box](units/07-01-box/README.md), Lösung unter
   `solutions/07-01-box/`
 - [08-01 Futures, async und await](units/08-01-futures-async-und-await/README.md),
@@ -261,6 +263,8 @@ Not every stage stands yet. The list below names the units that really exist.
   `solutions/05-06-doku-tests/`
 - [06-01 Command line arguments](units/06-01-argumente-von-der-kommandozeile/README.md),
   solution at `solutions/06-01-argumente-von-der-kommandozeile/`
+- [06-02 Reading and writing files](units/06-02-dateien-lesen-und-schreiben/README.md),
+  solution at `solutions/06-02-dateien-lesen-und-schreiben/`
 - [07-01 Box](units/07-01-box/README.md), solution at
   `solutions/07-01-box/`
 - [08-01 Futures, async and await](units/08-01-futures-async-und-await/README.md),
