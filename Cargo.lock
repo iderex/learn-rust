@@ -143,6 +143,10 @@ name = "unit-05-04-lifetimes"
 version = "0.1.0"
 
 [[package]]
+name = "unit-05-05-tests-und-ihr-aufbau"
+version = "0.1.0"
+
+[[package]]
 name = "unit-06-01-argumente-von-der-kommandozeile"
 version = "0.1.0"
 
