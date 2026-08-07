@@ -122,6 +122,8 @@ wirklich gibt.
   Lösung unter `solutions/08-01-futures-async-und-await/`
 - [09-01 Muster im Detail](units/09-01-muster-im-detail/README.md), Lösung unter
   `solutions/09-01-muster-im-detail/`
+- [09-02 Assoziierte Typen](units/09-02-assoziierte-typen/README.md), Lösung
+  unter `solutions/09-02-assoziierte-typen/`
 
 ### Beim Antworten
 
@@ -259,6 +261,8 @@ Not every stage stands yet. The list below names the units that really exist.
   solution at `solutions/08-01-futures-async-und-await/`
 - [09-01 Patterns in detail](units/09-01-muster-im-detail/README.md), solution
   at `solutions/09-01-muster-im-detail/`
+- [09-02 Associated types](units/09-02-assoziierte-typen/README.md), solution at
+  `solutions/09-02-assoziierte-typen/`
 
 ### When answering
 
