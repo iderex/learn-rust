@@ -124,6 +124,8 @@ wirklich gibt.
   `solutions/09-01-muster-im-detail/`
 - [09-02 Assoziierte Typen](units/09-02-assoziierte-typen/README.md), Lösung
   unter `solutions/09-02-assoziierte-typen/`
+- [10-01 Was unsafe erlaubt](units/10-01-was-unsafe-erlaubt/README.md), Lösung
+  unter `solutions/10-01-was-unsafe-erlaubt/`
 
 ### Beim Antworten
 
@@ -263,6 +265,8 @@ Not every stage stands yet. The list below names the units that really exist.
   at `solutions/09-01-muster-im-detail/`
 - [09-02 Associated types](units/09-02-assoziierte-typen/README.md), solution at
   `solutions/09-02-assoziierte-typen/`
+- [10-01 What unsafe allows](units/10-01-was-unsafe-erlaubt/README.md), solution
+  at `solutions/10-01-was-unsafe-erlaubt/`
 
 ### When answering
 
