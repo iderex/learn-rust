@@ -167,6 +167,10 @@ name = "unit-07-02-rc"
 version = "0.1.0"
 
 [[package]]
+name = "unit-07-10-zustandsmuster"
+version = "0.1.0"
+
+[[package]]
 name = "unit-08-01-futures-async-und-await"
 version = "0.1.0"
 
