@@ -114,6 +114,8 @@ wirklich gibt.
   `solutions/05-04-lifetimes/`
 - [05-05 Tests und ihr Aufbau](units/05-05-tests-und-ihr-aufbau/README.md),
   Lösung unter `solutions/05-05-tests-und-ihr-aufbau/`
+- [05-06 Doku-Tests](units/05-06-doku-tests/README.md), Lösung unter
+  `solutions/05-06-doku-tests/`
 - [06-01 Argumente von der Kommandozeile](units/06-01-argumente-von-der-kommandozeile/README.md),
   Lösung unter `solutions/06-01-argumente-von-der-kommandozeile/`
 - [07-01 Box](units/07-01-box/README.md), Lösung unter
@@ -255,6 +257,8 @@ Not every stage stands yet. The list below names the units that really exist.
   `solutions/05-04-lifetimes/`
 - [05-05 Tests and how they are organised](units/05-05-tests-und-ihr-aufbau/README.md),
   solution at `solutions/05-05-tests-und-ihr-aufbau/`
+- [05-06 Doc tests](units/05-06-doku-tests/README.md), solution at
+  `solutions/05-06-doku-tests/`
 - [06-01 Command line arguments](units/06-01-argumente-von-der-kommandozeile/README.md),
   solution at `solutions/06-01-argumente-von-der-kommandozeile/`
 - [07-01 Box](units/07-01-box/README.md), solution at
