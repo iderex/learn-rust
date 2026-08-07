@@ -147,6 +147,10 @@ name = "unit-06-01-argumente-von-der-kommandozeile"
 version = "0.1.0"
 
 [[package]]
+name = "unit-07-01-box"
+version = "0.1.0"
+
+[[package]]
 name = "unit-09-01-muster-im-detail"
 version = "0.1.0"
 
