@@ -120,9 +120,25 @@ wirklich gibt.
   Lösung unter `solutions/06-01-argumente-von-der-kommandozeile/`
 - [06-02 Dateien lesen und schreiben](units/06-02-dateien-lesen-und-schreiben/README.md),
   Lösung unter `solutions/06-02-dateien-lesen-und-schreiben/`
+- [06-03 Umgebungsvariablen und Ausgabe nach stderr](units/06-03-umgebungsvariablen-und-stderr/README.md),
+  Lösung unter `solutions/06-03-umgebungsvariablen-und-stderr/`
+- [06-04 Closures](units/06-04-closures/README.md), Lösung unter
+  `solutions/06-04-closures/`
+- [06-05 Iteratoren](units/06-05-iteratoren/README.md), Lösung unter
+  `solutions/06-05-iteratoren/`
+- [06-06 Cargo-Profile und cargo doc](units/06-06-cargo-profile-und-cargo-doc/README.md),
+  Lösung unter `solutions/06-06-cargo-profile-und-cargo-doc/`
 - [07-01 Box](units/07-01-box/README.md), Lösung unter
   `solutions/07-01-box/`
 - [07-02 Rc](units/07-02-rc/README.md), Lösung unter `solutions/07-02-rc/`
+- [07-03 RefCell](units/07-03-refcell/README.md), Lösung unter
+  `solutions/07-03-refcell/`
+- [07-04 Deref und Drop](units/07-04-deref-und-drop/README.md), Lösung unter
+  `solutions/07-04-deref-und-drop/`
+- [07-05 Threads](units/07-05-threads/README.md), Lösung unter
+  `solutions/07-05-threads/`
+- [07-06 Kanäle](units/07-06-kanaele/README.md), Lösung unter
+  `solutions/07-06-kanaele/`
 - [08-01 Futures, async und await](units/08-01-futures-async-und-await/README.md),
   Lösung unter `solutions/08-01-futures-async-und-await/`
 - [09-01 Muster im Detail](units/09-01-muster-im-detail/README.md), Lösung unter
@@ -131,12 +147,16 @@ wirklich gibt.
   unter `solutions/09-02-assoziierte-typen/`
 - [09-03 Operatorüberladung](units/09-03-operatorueberladung/README.md), Lösung
   unter `solutions/09-03-operatorueberladung/`
+- [09-04 Das Newtype-Muster](units/09-04-newtype-muster/README.md), Lösung unter
+  `solutions/09-04-newtype-muster/`
 - [09-05 Fortgeschrittene Typen](units/09-05-fortgeschrittene-typen/README.md),
   Lösung unter `solutions/09-05-fortgeschrittene-typen/`
 - [10-01 Was unsafe erlaubt](units/10-01-was-unsafe-erlaubt/README.md), Lösung
   unter `solutions/10-01-was-unsafe-erlaubt/`
 - [10-02 Rohe Zeiger](units/10-02-rohe-zeiger/README.md), Lösung unter
   `solutions/10-02-rohe-zeiger/`
+- [10-03 Undefiniertes Verhalten](units/10-03-undefiniertes-verhalten/README.md),
+  Lösung unter `solutions/10-03-undefiniertes-verhalten/`
 
 ### Beim Antworten
 
@@ -272,9 +292,25 @@ Not every stage stands yet. The list below names the units that really exist.
   solution at `solutions/06-01-argumente-von-der-kommandozeile/`
 - [06-02 Reading and writing files](units/06-02-dateien-lesen-und-schreiben/README.md),
   solution at `solutions/06-02-dateien-lesen-und-schreiben/`
+- [06-03 Environment variables and output to stderr](units/06-03-umgebungsvariablen-und-stderr/README.md),
+  solution at `solutions/06-03-umgebungsvariablen-und-stderr/`
+- [06-04 Closures](units/06-04-closures/README.md), solution at
+  `solutions/06-04-closures/`
+- [06-05 Iterators](units/06-05-iteratoren/README.md), solution at
+  `solutions/06-05-iteratoren/`
+- [06-06 Cargo profiles and cargo doc](units/06-06-cargo-profile-und-cargo-doc/README.md),
+  solution at `solutions/06-06-cargo-profile-und-cargo-doc/`
 - [07-01 Box](units/07-01-box/README.md), solution at
   `solutions/07-01-box/`
 - [07-02 Rc](units/07-02-rc/README.md), solution at `solutions/07-02-rc/`
+- [07-03 RefCell](units/07-03-refcell/README.md), solution at
+  `solutions/07-03-refcell/`
+- [07-04 Deref and Drop](units/07-04-deref-und-drop/README.md), solution at
+  `solutions/07-04-deref-und-drop/`
+- [07-05 Threads](units/07-05-threads/README.md), solution at
+  `solutions/07-05-threads/`
+- [07-06 Channels](units/07-06-kanaele/README.md), solution at
+  `solutions/07-06-kanaele/`
 - [08-01 Futures, async and await](units/08-01-futures-async-und-await/README.md),
   solution at `solutions/08-01-futures-async-und-await/`
 - [09-01 Patterns in detail](units/09-01-muster-im-detail/README.md), solution
@@ -283,12 +319,16 @@ Not every stage stands yet. The list below names the units that really exist.
   `solutions/09-02-assoziierte-typen/`
 - [09-03 Operator overloading](units/09-03-operatorueberladung/README.md),
   solution at `solutions/09-03-operatorueberladung/`
+- [09-04 The newtype pattern](units/09-04-newtype-muster/README.md), solution at
+  `solutions/09-04-newtype-muster/`
 - [09-05 Advanced types](units/09-05-fortgeschrittene-typen/README.md), solution
   at `solutions/09-05-fortgeschrittene-typen/`
 - [10-01 What unsafe allows](units/10-01-was-unsafe-erlaubt/README.md), solution
   at `solutions/10-01-was-unsafe-erlaubt/`
 - [10-02 Raw pointers](units/10-02-rohe-zeiger/README.md), solution at
   `solutions/10-02-rohe-zeiger/`
+- [10-03 Undefined behaviour](units/10-03-undefiniertes-verhalten/README.md),
+  solution at `solutions/10-03-undefiniertes-verhalten/`
 
 ### When answering
 
