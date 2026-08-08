@@ -126,6 +126,8 @@ wirklich gibt.
   `solutions/06-04-closures/`
 - [06-05 Iteratoren](units/06-05-iteratoren/README.md), Lösung unter
   `solutions/06-05-iteratoren/`
+- [06-06 Cargo-Profile und cargo doc](units/06-06-cargo-profile-und-cargo-doc/README.md),
+  Lösung unter `solutions/06-06-cargo-profile-und-cargo-doc/`
 - [07-01 Box](units/07-01-box/README.md), Lösung unter
   `solutions/07-01-box/`
 - [07-02 Rc](units/07-02-rc/README.md), Lösung unter `solutions/07-02-rc/`
@@ -292,6 +294,8 @@ Not every stage stands yet. The list below names the units that really exist.
   `solutions/06-04-closures/`
 - [06-05 Iterators](units/06-05-iteratoren/README.md), solution at
   `solutions/06-05-iteratoren/`
+- [06-06 Cargo profiles and cargo doc](units/06-06-cargo-profile-und-cargo-doc/README.md),
+  solution at `solutions/06-06-cargo-profile-und-cargo-doc/`
 - [07-01 Box](units/07-01-box/README.md), solution at
   `solutions/07-01-box/`
 - [07-02 Rc](units/07-02-rc/README.md), solution at `solutions/07-02-rc/`
