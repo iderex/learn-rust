@@ -120,6 +120,8 @@ wirklich gibt.
   Lösung unter `solutions/06-01-argumente-von-der-kommandozeile/`
 - [06-02 Dateien lesen und schreiben](units/06-02-dateien-lesen-und-schreiben/README.md),
   Lösung unter `solutions/06-02-dateien-lesen-und-schreiben/`
+- [06-03 Umgebungsvariablen und Ausgabe nach stderr](units/06-03-umgebungsvariablen-und-stderr/README.md),
+  Lösung unter `solutions/06-03-umgebungsvariablen-und-stderr/`
 - [07-01 Box](units/07-01-box/README.md), Lösung unter
   `solutions/07-01-box/`
 - [07-02 Rc](units/07-02-rc/README.md), Lösung unter `solutions/07-02-rc/`
@@ -270,6 +272,8 @@ Not every stage stands yet. The list below names the units that really exist.
   solution at `solutions/06-01-argumente-von-der-kommandozeile/`
 - [06-02 Reading and writing files](units/06-02-dateien-lesen-und-schreiben/README.md),
   solution at `solutions/06-02-dateien-lesen-und-schreiben/`
+- [06-03 Environment variables and output to stderr](units/06-03-umgebungsvariablen-und-stderr/README.md),
+  solution at `solutions/06-03-umgebungsvariablen-und-stderr/`
 - [07-01 Box](units/07-01-box/README.md), solution at
   `solutions/07-01-box/`
 - [07-02 Rc](units/07-02-rc/README.md), solution at `solutions/07-02-rc/`
