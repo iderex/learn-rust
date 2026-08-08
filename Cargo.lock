@@ -195,6 +195,10 @@ name = "unit-07-05-threads"
 version = "0.1.0"
 
 [[package]]
+name = "unit-07-06-kanaele"
+version = "0.1.0"
+
+[[package]]
 name = "unit-08-01-futures-async-und-await"
 version = "0.1.0"
 
