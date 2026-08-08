@@ -149,6 +149,8 @@ wirklich gibt.
   unter `solutions/10-01-was-unsafe-erlaubt/`
 - [10-02 Rohe Zeiger](units/10-02-rohe-zeiger/README.md), Lösung unter
   `solutions/10-02-rohe-zeiger/`
+- [10-03 Undefiniertes Verhalten](units/10-03-undefiniertes-verhalten/README.md),
+  Lösung unter `solutions/10-03-undefiniertes-verhalten/`
 
 ### Beim Antworten
 
@@ -313,6 +315,8 @@ Not every stage stands yet. The list below names the units that really exist.
   at `solutions/10-01-was-unsafe-erlaubt/`
 - [10-02 Raw pointers](units/10-02-rohe-zeiger/README.md), solution at
   `solutions/10-02-rohe-zeiger/`
+- [10-03 Undefined behaviour](units/10-03-undefiniertes-verhalten/README.md),
+  solution at `solutions/10-03-undefiniertes-verhalten/`
 
 ### When answering
 
