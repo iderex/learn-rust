@@ -131,6 +131,8 @@ wirklich gibt.
   `solutions/07-03-refcell/`
 - [07-04 Deref und Drop](units/07-04-deref-und-drop/README.md), Lösung unter
   `solutions/07-04-deref-und-drop/`
+- [07-05 Threads](units/07-05-threads/README.md), Lösung unter
+  `solutions/07-05-threads/`
 - [08-01 Futures, async und await](units/08-01-futures-async-und-await/README.md),
   Lösung unter `solutions/08-01-futures-async-und-await/`
 - [09-01 Muster im Detail](units/09-01-muster-im-detail/README.md), Lösung unter
@@ -291,6 +293,8 @@ Not every stage stands yet. The list below names the units that really exist.
   `solutions/07-03-refcell/`
 - [07-04 Deref and Drop](units/07-04-deref-und-drop/README.md), solution at
   `solutions/07-04-deref-und-drop/`
+- [07-05 Threads](units/07-05-threads/README.md), solution at
+  `solutions/07-05-threads/`
 - [08-01 Futures, async and await](units/08-01-futures-async-und-await/README.md),
   solution at `solutions/08-01-futures-async-und-await/`
 - [09-01 Patterns in detail](units/09-01-muster-im-detail/README.md), solution
