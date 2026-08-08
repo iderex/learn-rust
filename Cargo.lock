@@ -235,5 +235,9 @@ name = "unit-10-03-undefiniertes-verhalten"
 version = "0.1.0"
 
 [[package]]
+name = "unit-10-04-varianz"
+version = "0.1.0"
+
+[[package]]
 name = "xtask"
 version = "0.1.0"
