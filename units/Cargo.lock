@@ -223,6 +223,10 @@ name = "unit-09-05-fortgeschrittene-typen"
 version = "0.1.0"
 
 [[package]]
+name = "unit-09-06-funktionszeiger"
+version = "0.1.0"
+
+[[package]]
 name = "unit-10-01-was-unsafe-erlaubt"
 version = "0.1.0"
 
