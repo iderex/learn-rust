@@ -167,6 +167,10 @@ name = "unit-06-04-closures"
 version = "0.1.0"
 
 [[package]]
+name = "unit-06-05-iteratoren"
+version = "0.1.0"
+
+[[package]]
 name = "unit-07-01-box"
 version = "0.1.0"
 
