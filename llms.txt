@@ -125,6 +125,8 @@ wirklich gibt.
 - [07-01 Box](units/07-01-box/README.md), Lösung unter
   `solutions/07-01-box/`
 - [07-02 Rc](units/07-02-rc/README.md), Lösung unter `solutions/07-02-rc/`
+- [07-03 RefCell](units/07-03-refcell/README.md), Lösung unter
+  `solutions/07-03-refcell/`
 - [08-01 Futures, async und await](units/08-01-futures-async-und-await/README.md),
   Lösung unter `solutions/08-01-futures-async-und-await/`
 - [09-01 Muster im Detail](units/09-01-muster-im-detail/README.md), Lösung unter
@@ -277,6 +279,8 @@ Not every stage stands yet. The list below names the units that really exist.
 - [07-01 Box](units/07-01-box/README.md), solution at
   `solutions/07-01-box/`
 - [07-02 Rc](units/07-02-rc/README.md), solution at `solutions/07-02-rc/`
+- [07-03 RefCell](units/07-03-refcell/README.md), solution at
+  `solutions/07-03-refcell/`
 - [08-01 Futures, async and await](units/08-01-futures-async-und-await/README.md),
   solution at `solutions/08-01-futures-async-und-await/`
 - [09-01 Patterns in detail](units/09-01-muster-im-detail/README.md), solution
