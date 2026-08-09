@@ -179,6 +179,8 @@ wirklich gibt.
   `solutions/10-05-drop-check/`
 - [10-06 FFI mit extern "C"](units/10-06-ffi-mit-extern-c/README.md), Lösung
   unter `solutions/10-06-ffi-mit-extern-c/`
+- [10-07 Miri](units/10-07-miri/README.md), Lösung unter
+  `solutions/10-07-miri/`
 
 ### Beim Antworten
 
@@ -373,6 +375,8 @@ Not every stage stands yet. The list below names the units that really exist.
   `solutions/10-05-drop-check/`
 - [10-06 FFI with extern "C"](units/10-06-ffi-mit-extern-c/README.md), solution
   at `solutions/10-06-ffi-mit-extern-c/`
+- [10-07 Miri](units/10-07-miri/README.md), solution at
+  `solutions/10-07-miri/`
 
 ### When answering
 
