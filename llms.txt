@@ -161,6 +161,8 @@ wirklich gibt.
   Lösung unter `solutions/09-05-fortgeschrittene-typen/`
 - [09-06 Funktionszeiger](units/09-06-funktionszeiger/README.md), Lösung unter
   `solutions/09-06-funktionszeiger/`
+- [09-07 Deklarative Makros mit macro_rules!](units/09-07-deklarative-makros/README.md),
+  Lösung unter `solutions/09-07-deklarative-makros/`
 - [10-01 Was unsafe erlaubt](units/10-01-was-unsafe-erlaubt/README.md), Lösung
   unter `solutions/10-01-was-unsafe-erlaubt/`
 - [10-02 Rohe Zeiger](units/10-02-rohe-zeiger/README.md), Lösung unter
@@ -347,6 +349,8 @@ Not every stage stands yet. The list below names the units that really exist.
   at `solutions/09-05-fortgeschrittene-typen/`
 - [09-06 Function pointers](units/09-06-funktionszeiger/README.md), solution at
   `solutions/09-06-funktionszeiger/`
+- [09-07 Declarative macros with macro_rules!](units/09-07-deklarative-makros/README.md),
+  solution at `solutions/09-07-deklarative-makros/`
 - [10-01 What unsafe allows](units/10-01-was-unsafe-erlaubt/README.md), solution
   at `solutions/10-01-was-unsafe-erlaubt/`
 - [10-02 Raw pointers](units/10-02-rohe-zeiger/README.md), solution at
