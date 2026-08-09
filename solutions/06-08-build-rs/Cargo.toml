@@ -1,0 +1,7 @@
+[package]
+name = "unit-06-08-build-rs"
+version = "0.1.0"
+edition = "2024"
+publish = false
+license = "MIT"
+build = "build.rs"
