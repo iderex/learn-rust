@@ -245,3 +245,7 @@ version = "0.1.0"
 [[package]]
 name = "unit-10-04-varianz"
 version = "0.1.0"
+
+[[package]]
+name = "unit-10-05-drop-check"
+version = "0.1.0"

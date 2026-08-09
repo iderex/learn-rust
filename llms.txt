@@ -163,6 +163,8 @@ wirklich gibt.
   Lösung unter `solutions/10-03-undefiniertes-verhalten/`
 - [10-04 Varianz](units/10-04-varianz/README.md), Lösung unter
   `solutions/10-04-varianz/`
+- [10-05 Drop check](units/10-05-drop-check/README.md), Lösung unter
+  `solutions/10-05-drop-check/`
 
 ### Beim Antworten
 
@@ -341,6 +343,8 @@ Not every stage stands yet. The list below names the units that really exist.
   solution at `solutions/10-03-undefiniertes-verhalten/`
 - [10-04 Variance](units/10-04-varianz/README.md), solution at
   `solutions/10-04-varianz/`
+- [10-05 Drop check](units/10-05-drop-check/README.md), solution at
+  `solutions/10-05-drop-check/`
 
 ### When answering
 
