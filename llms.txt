@@ -173,6 +173,8 @@ wirklich gibt.
   `solutions/10-04-varianz/`
 - [10-05 Drop check](units/10-05-drop-check/README.md), Lösung unter
   `solutions/10-05-drop-check/`
+- [10-06 FFI mit extern "C"](units/10-06-ffi-mit-extern-c/README.md), Lösung
+  unter `solutions/10-06-ffi-mit-extern-c/`
 
 ### Beim Antworten
 
@@ -361,6 +363,8 @@ Not every stage stands yet. The list below names the units that really exist.
   `solutions/10-04-varianz/`
 - [10-05 Drop check](units/10-05-drop-check/README.md), solution at
   `solutions/10-05-drop-check/`
+- [10-06 FFI with extern "C"](units/10-06-ffi-mit-extern-c/README.md), solution
+  at `solutions/10-06-ffi-mit-extern-c/`
 
 ### When answering
 
