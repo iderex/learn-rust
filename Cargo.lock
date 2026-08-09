@@ -159,11 +159,43 @@ name = "unit-06-02-dateien-lesen-und-schreiben"
 version = "0.1.0"
 
 [[package]]
+name = "unit-06-03-umgebungsvariablen-und-stderr"
+version = "0.1.0"
+
+[[package]]
+name = "unit-06-04-closures"
+version = "0.1.0"
+
+[[package]]
+name = "unit-06-05-iteratoren"
+version = "0.1.0"
+
+[[package]]
+name = "unit-06-06-cargo-profile-und-cargo-doc"
+version = "0.1.0"
+
+[[package]]
 name = "unit-07-01-box"
 version = "0.1.0"
 
 [[package]]
 name = "unit-07-02-rc"
+version = "0.1.0"
+
+[[package]]
+name = "unit-07-03-refcell"
+version = "0.1.0"
+
+[[package]]
+name = "unit-07-04-deref-und-drop"
+version = "0.1.0"
+
+[[package]]
+name = "unit-07-05-threads"
+version = "0.1.0"
+
+[[package]]
+name = "unit-07-06-kanaele"
 version = "0.1.0"
 
 [[package]]
@@ -183,11 +215,27 @@ name = "unit-09-03-operatorueberladung"
 version = "0.1.0"
 
 [[package]]
+name = "unit-09-04-newtype-muster"
+version = "0.1.0"
+
+[[package]]
+name = "unit-09-05-fortgeschrittene-typen"
+version = "0.1.0"
+
+[[package]]
 name = "unit-10-01-was-unsafe-erlaubt"
 version = "0.1.0"
 
 [[package]]
 name = "unit-10-02-rohe-zeiger"
+version = "0.1.0"
+
+[[package]]
+name = "unit-10-03-undefiniertes-verhalten"
+version = "0.1.0"
+
+[[package]]
+name = "unit-10-04-varianz"
 version = "0.1.0"
 
 [[package]]
