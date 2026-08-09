@@ -130,6 +130,8 @@ wirklich gibt.
   Lösung unter `solutions/06-06-cargo-profile-und-cargo-doc/`
 - [06-07 #[cfg] und Features](units/06-07-cfg-und-features/README.md), Lösung
   unter `solutions/06-07-cfg-und-features/`
+- [06-08 build.rs](units/06-08-build-rs/README.md), Lösung unter
+  `solutions/06-08-build-rs/`
 - [07-01 Box](units/07-01-box/README.md), Lösung unter
   `solutions/07-01-box/`
 - [07-02 Rc](units/07-02-rc/README.md), Lösung unter `solutions/07-02-rc/`
@@ -312,6 +314,8 @@ Not every stage stands yet. The list below names the units that really exist.
   solution at `solutions/06-06-cargo-profile-und-cargo-doc/`
 - [06-07 #[cfg] and features](units/06-07-cfg-und-features/README.md), solution
   at `solutions/06-07-cfg-und-features/`
+- [06-08 build.rs](units/06-08-build-rs/README.md), solution at
+  `solutions/06-08-build-rs/`
 - [07-01 Box](units/07-01-box/README.md), solution at
   `solutions/07-01-box/`
 - [07-02 Rc](units/07-02-rc/README.md), solution at `solutions/07-02-rc/`
