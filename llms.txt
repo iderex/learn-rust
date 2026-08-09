@@ -147,6 +147,8 @@ wirklich gibt.
   `solutions/07-07-mutex-und-arc/`
 - [07-08 Send, Sync und die atomaren Typen](units/07-08-send-sync-und-atomare-typen/README.md),
   Lösung unter `solutions/07-08-send-sync-und-atomare-typen/`
+- [07-09 Trait-Objekte](units/07-09-trait-objekte/README.md), Lösung unter
+  `solutions/07-09-trait-objekte/`
 - [08-01 Futures, async und await](units/08-01-futures-async-und-await/README.md),
   Lösung unter `solutions/08-01-futures-async-und-await/`
 - [09-01 Muster im Detail](units/09-01-muster-im-detail/README.md), Lösung unter
@@ -337,6 +339,8 @@ Not every stage stands yet. The list below names the units that really exist.
   `solutions/07-07-mutex-und-arc/`
 - [07-08 Send, Sync and the atomic types](units/07-08-send-sync-und-atomare-typen/README.md),
   solution at `solutions/07-08-send-sync-und-atomare-typen/`
+- [07-09 Trait objects](units/07-09-trait-objekte/README.md), solution at
+  `solutions/07-09-trait-objekte/`
 - [08-01 Futures, async and await](units/08-01-futures-async-und-await/README.md),
   solution at `solutions/08-01-futures-async-und-await/`
 - [09-01 Patterns in detail](units/09-01-muster-im-detail/README.md), solution
