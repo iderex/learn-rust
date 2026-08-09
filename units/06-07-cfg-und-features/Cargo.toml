@@ -1,0 +1,16 @@
+[package]
+name = "unit-06-07-cfg-und-features"
+version = "0.1.0"
+edition = "2024"
+publish = false
+license = "MIT"
+
+# Deutsch: Das Feature dieser Einheit. Es ist standardmäßig aus, und deshalb
+# baut jeder Befehl aus CONTRIBUTING.md die Fassung ohne es. Mit ihm gebaut wird
+# über `cargo test --features zusammenfassung`, und das steht in der README.
+# English: the feature of this unit. It is off by default, and every command from
+# CONTRIBUTING.md therefore builds the version without it. Building with it goes
+# through `cargo test --features zusammenfassung`, and that stands in the README.
+[features]
+default = []
+zusammenfassung = []
