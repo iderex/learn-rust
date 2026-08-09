@@ -1,0 +1,14 @@
+[package]
+name = "unit-06-07-cfg-und-features"
+version = "0.1.0"
+edition = "2024"
+publish = false
+license = "MIT"
+
+# Deutsch: Dasselbe Feature wie in der Einheit. Ohne diesen Block kennt die
+# Lösung den Namen nicht, den die Tests der Einheit abfragen.
+# English: the same feature as in the unit. Without this block the solution does
+# not know the name the unit's tests ask about.
+[features]
+default = []
+zusammenfassung = []
