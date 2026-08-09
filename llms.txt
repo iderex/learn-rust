@@ -128,6 +128,10 @@ wirklich gibt.
   `solutions/06-05-iteratoren/`
 - [06-06 Cargo-Profile und cargo doc](units/06-06-cargo-profile-und-cargo-doc/README.md),
   Lösung unter `solutions/06-06-cargo-profile-und-cargo-doc/`
+- [06-07 #[cfg] und Features](units/06-07-cfg-und-features/README.md), Lösung
+  unter `solutions/06-07-cfg-und-features/`
+- [06-08 build.rs](units/06-08-build-rs/README.md), Lösung unter
+  `solutions/06-08-build-rs/`
 - [07-01 Box](units/07-01-box/README.md), Lösung unter
   `solutions/07-01-box/`
 - [07-02 Rc](units/07-02-rc/README.md), Lösung unter `solutions/07-02-rc/`
@@ -139,6 +143,10 @@ wirklich gibt.
   `solutions/07-05-threads/`
 - [07-06 Kanäle](units/07-06-kanaele/README.md), Lösung unter
   `solutions/07-06-kanaele/`
+- [07-07 Mutex und Arc](units/07-07-mutex-und-arc/README.md), Lösung unter
+  `solutions/07-07-mutex-und-arc/`
+- [07-08 Send, Sync und die atomaren Typen](units/07-08-send-sync-und-atomare-typen/README.md),
+  Lösung unter `solutions/07-08-send-sync-und-atomare-typen/`
 - [08-01 Futures, async und await](units/08-01-futures-async-und-await/README.md),
   Lösung unter `solutions/08-01-futures-async-und-await/`
 - [09-01 Muster im Detail](units/09-01-muster-im-detail/README.md), Lösung unter
@@ -151,6 +159,10 @@ wirklich gibt.
   `solutions/09-04-newtype-muster/`
 - [09-05 Fortgeschrittene Typen](units/09-05-fortgeschrittene-typen/README.md),
   Lösung unter `solutions/09-05-fortgeschrittene-typen/`
+- [09-06 Funktionszeiger](units/09-06-funktionszeiger/README.md), Lösung unter
+  `solutions/09-06-funktionszeiger/`
+- [09-07 Deklarative Makros mit macro_rules!](units/09-07-deklarative-makros/README.md),
+  Lösung unter `solutions/09-07-deklarative-makros/`
 - [10-01 Was unsafe erlaubt](units/10-01-was-unsafe-erlaubt/README.md), Lösung
   unter `solutions/10-01-was-unsafe-erlaubt/`
 - [10-02 Rohe Zeiger](units/10-02-rohe-zeiger/README.md), Lösung unter
@@ -159,6 +171,8 @@ wirklich gibt.
   Lösung unter `solutions/10-03-undefiniertes-verhalten/`
 - [10-04 Varianz](units/10-04-varianz/README.md), Lösung unter
   `solutions/10-04-varianz/`
+- [10-05 Drop check](units/10-05-drop-check/README.md), Lösung unter
+  `solutions/10-05-drop-check/`
 - [10-06 FFI mit extern "C"](units/10-06-ffi-mit-extern-c/README.md), Lösung
   unter `solutions/10-06-ffi-mit-extern-c/`
 
@@ -304,6 +318,10 @@ Not every stage stands yet. The list below names the units that really exist.
   `solutions/06-05-iteratoren/`
 - [06-06 Cargo profiles and cargo doc](units/06-06-cargo-profile-und-cargo-doc/README.md),
   solution at `solutions/06-06-cargo-profile-und-cargo-doc/`
+- [06-07 #[cfg] and features](units/06-07-cfg-und-features/README.md), solution
+  at `solutions/06-07-cfg-und-features/`
+- [06-08 build.rs](units/06-08-build-rs/README.md), solution at
+  `solutions/06-08-build-rs/`
 - [07-01 Box](units/07-01-box/README.md), solution at
   `solutions/07-01-box/`
 - [07-02 Rc](units/07-02-rc/README.md), solution at `solutions/07-02-rc/`
@@ -315,6 +333,10 @@ Not every stage stands yet. The list below names the units that really exist.
   `solutions/07-05-threads/`
 - [07-06 Channels](units/07-06-kanaele/README.md), solution at
   `solutions/07-06-kanaele/`
+- [07-07 Mutex and Arc](units/07-07-mutex-und-arc/README.md), solution at
+  `solutions/07-07-mutex-und-arc/`
+- [07-08 Send, Sync and the atomic types](units/07-08-send-sync-und-atomare-typen/README.md),
+  solution at `solutions/07-08-send-sync-und-atomare-typen/`
 - [08-01 Futures, async and await](units/08-01-futures-async-und-await/README.md),
   solution at `solutions/08-01-futures-async-und-await/`
 - [09-01 Patterns in detail](units/09-01-muster-im-detail/README.md), solution
@@ -327,6 +349,10 @@ Not every stage stands yet. The list below names the units that really exist.
   `solutions/09-04-newtype-muster/`
 - [09-05 Advanced types](units/09-05-fortgeschrittene-typen/README.md), solution
   at `solutions/09-05-fortgeschrittene-typen/`
+- [09-06 Function pointers](units/09-06-funktionszeiger/README.md), solution at
+  `solutions/09-06-funktionszeiger/`
+- [09-07 Declarative macros with macro_rules!](units/09-07-deklarative-makros/README.md),
+  solution at `solutions/09-07-deklarative-makros/`
 - [10-01 What unsafe allows](units/10-01-was-unsafe-erlaubt/README.md), solution
   at `solutions/10-01-was-unsafe-erlaubt/`
 - [10-02 Raw pointers](units/10-02-rohe-zeiger/README.md), solution at
@@ -335,6 +361,8 @@ Not every stage stands yet. The list below names the units that really exist.
   solution at `solutions/10-03-undefiniertes-verhalten/`
 - [10-04 Variance](units/10-04-varianz/README.md), solution at
   `solutions/10-04-varianz/`
+- [10-05 Drop check](units/10-05-drop-check/README.md), solution at
+  `solutions/10-05-drop-check/`
 - [10-06 FFI with extern "C"](units/10-06-ffi-mit-extern-c/README.md), solution
   at `solutions/10-06-ffi-mit-extern-c/`
 
