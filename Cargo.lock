@@ -211,6 +211,10 @@ name = "unit-07-07-mutex-und-arc"
 version = "0.1.0"
 
 [[package]]
+name = "unit-07-08-send-sync-und-atomare-typen"
+version = "0.1.0"
+
+[[package]]
 name = "unit-08-01-futures-async-und-await"
 version = "0.1.0"
 
