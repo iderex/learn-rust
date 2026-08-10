@@ -147,6 +147,8 @@ wirklich gibt.
   `solutions/07-07-mutex-und-arc/`
 - [07-08 Send, Sync und die atomaren Typen](units/07-08-send-sync-und-atomare-typen/README.md),
   Lösung unter `solutions/07-08-send-sync-und-atomare-typen/`
+- [07-09 Trait-Objekte](units/07-09-trait-objekte/README.md), Lösung unter
+  `solutions/07-09-trait-objekte/`
 - [07-10 Das Zustandsmuster](units/07-10-zustandsmuster/README.md), Lösung unter
   `solutions/07-10-zustandsmuster/`
 - [08-01 Futures, async und await](units/08-01-futures-async-und-await/README.md),
@@ -165,6 +167,8 @@ wirklich gibt.
   `solutions/09-06-funktionszeiger/`
 - [09-07 Deklarative Makros mit macro_rules!](units/09-07-deklarative-makros/README.md),
   Lösung unter `solutions/09-07-deklarative-makros/`
+- [09-08 Der Webserver, einfach und blockierend](units/09-08-webserver-einfach-und-blockierend/README.md),
+  Lösung unter `solutions/09-08-webserver-einfach-und-blockierend/`
 - [10-01 Was unsafe erlaubt](units/10-01-was-unsafe-erlaubt/README.md), Lösung
   unter `solutions/10-01-was-unsafe-erlaubt/`
 - [10-02 Rohe Zeiger](units/10-02-rohe-zeiger/README.md), Lösung unter
@@ -177,6 +181,8 @@ wirklich gibt.
   `solutions/10-05-drop-check/`
 - [10-06 FFI mit extern "C"](units/10-06-ffi-mit-extern-c/README.md), Lösung
   unter `solutions/10-06-ffi-mit-extern-c/`
+- [10-07 Miri](units/10-07-miri/README.md), Lösung unter
+  `solutions/10-07-miri/`
 
 ### Beim Antworten
 
@@ -339,6 +345,8 @@ Not every stage stands yet. The list below names the units that really exist.
   `solutions/07-07-mutex-und-arc/`
 - [07-08 Send, Sync and the atomic types](units/07-08-send-sync-und-atomare-typen/README.md),
   solution at `solutions/07-08-send-sync-und-atomare-typen/`
+- [07-09 Trait objects](units/07-09-trait-objekte/README.md), solution at
+  `solutions/07-09-trait-objekte/`
 - [07-10 The state pattern](units/07-10-zustandsmuster/README.md), solution at
   `solutions/07-10-zustandsmuster/`
 - [08-01 Futures, async and await](units/08-01-futures-async-und-await/README.md),
@@ -357,6 +365,8 @@ Not every stage stands yet. The list below names the units that really exist.
   `solutions/09-06-funktionszeiger/`
 - [09-07 Declarative macros with macro_rules!](units/09-07-deklarative-makros/README.md),
   solution at `solutions/09-07-deklarative-makros/`
+- [09-08 The web server, simple and blocking](units/09-08-webserver-einfach-und-blockierend/README.md),
+  solution at `solutions/09-08-webserver-einfach-und-blockierend/`
 - [10-01 What unsafe allows](units/10-01-was-unsafe-erlaubt/README.md), solution
   at `solutions/10-01-was-unsafe-erlaubt/`
 - [10-02 Raw pointers](units/10-02-rohe-zeiger/README.md), solution at
@@ -369,6 +379,8 @@ Not every stage stands yet. The list below names the units that really exist.
   `solutions/10-05-drop-check/`
 - [10-06 FFI with extern "C"](units/10-06-ffi-mit-extern-c/README.md), solution
   at `solutions/10-06-ffi-mit-extern-c/`
+- [10-07 Miri](units/10-07-miri/README.md), solution at
+  `solutions/10-07-miri/`
 
 ### When answering
 

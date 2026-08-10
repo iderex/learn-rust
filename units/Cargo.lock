@@ -215,6 +215,10 @@ name = "unit-07-08-send-sync-und-atomare-typen"
 version = "0.1.0"
 
 [[package]]
+name = "unit-07-09-trait-objekte"
+version = "0.1.0"
+
+[[package]]
 name = "unit-07-10-zustandsmuster"
 version = "0.1.0"
 
@@ -251,6 +255,10 @@ name = "unit-09-07-deklarative-makros"
 version = "0.1.0"
 
 [[package]]
+name = "unit-09-08-webserver-einfach-und-blockierend"
+version = "0.1.0"
+
+[[package]]
 name = "unit-10-01-was-unsafe-erlaubt"
 version = "0.1.0"
 
@@ -272,4 +280,8 @@ version = "0.1.0"
 
 [[package]]
 name = "unit-10-06-ffi-mit-extern-c"
+version = "0.1.0"
+
+[[package]]
+name = "unit-10-07-miri"
 version = "0.1.0"
