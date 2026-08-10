@@ -169,6 +169,8 @@ wirklich gibt.
   Lösung unter `solutions/09-07-deklarative-makros/`
 - [09-08 Der Webserver, einfach und blockierend](units/09-08-webserver-einfach-und-blockierend/README.md),
   Lösung unter `solutions/09-08-webserver-einfach-und-blockierend/`
+- [09-09 Der Webserver mit Threadpool und eigenen Tests](units/09-09-webserver-mit-threadpool/README.md),
+  Lösung unter `solutions/09-09-webserver-mit-threadpool/`
 - [10-01 Was unsafe erlaubt](units/10-01-was-unsafe-erlaubt/README.md), Lösung
   unter `solutions/10-01-was-unsafe-erlaubt/`
 - [10-02 Rohe Zeiger](units/10-02-rohe-zeiger/README.md), Lösung unter
@@ -369,6 +371,8 @@ Not every stage stands yet. The list below names the units that really exist.
   solution at `solutions/09-07-deklarative-makros/`
 - [09-08 The web server, simple and blocking](units/09-08-webserver-einfach-und-blockierend/README.md),
   solution at `solutions/09-08-webserver-einfach-und-blockierend/`
+- [09-09 The web server with a thread pool and your own tests](units/09-09-webserver-mit-threadpool/README.md),
+  solution at `solutions/09-09-webserver-mit-threadpool/`
 - [10-01 What unsafe allows](units/10-01-was-unsafe-erlaubt/README.md), solution
   at `solutions/10-01-was-unsafe-erlaubt/`
 - [10-02 Raw pointers](units/10-02-rohe-zeiger/README.md), solution at
