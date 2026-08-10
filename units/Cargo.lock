@@ -285,3 +285,7 @@ version = "0.1.0"
 [[package]]
 name = "unit-10-07-miri"
 version = "0.1.0"
+
+[[package]]
+name = "unit-10-08-die-reference-als-nachschlagewerk"
+version = "0.1.0"

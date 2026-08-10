@@ -183,6 +183,8 @@ wirklich gibt.
   unter `solutions/10-06-ffi-mit-extern-c/`
 - [10-07 Miri](units/10-07-miri/README.md), Lösung unter
   `solutions/10-07-miri/`
+- [10-08 Die Reference als Nachschlagewerk](units/10-08-die-reference-als-nachschlagewerk/README.md),
+  Lösung unter `solutions/10-08-die-reference-als-nachschlagewerk/`
 
 ### Beim Antworten
 
@@ -381,6 +383,8 @@ Not every stage stands yet. The list below names the units that really exist.
   at `solutions/10-06-ffi-mit-extern-c/`
 - [10-07 Miri](units/10-07-miri/README.md), solution at
   `solutions/10-07-miri/`
+- [10-08 The Reference as a lookup](units/10-08-die-reference-als-nachschlagewerk/README.md),
+  solution at `solutions/10-08-die-reference-als-nachschlagewerk/`
 
 ### When answering
 
