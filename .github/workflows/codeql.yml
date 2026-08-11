@@ -1,0 +1,86 @@
+# Deutsch: Codeanalyse über den Rust-Baum, also units, solutions und xtask.
+#
+# Dieser Ablauf steht hier und nicht in CONTRIBUTING.md, weil er kein
+# Befehl des Prüflaufs ist, den ein Beitragender örtlich ausführt. Die
+# Analyse läuft als Dienst von GitHub und meldet in den Reiter für
+# Codeanalyse; `cargo run -p xtask -- ci` bleibt die einzige Quelle für die
+# Befehle des Prüflaufs, und diese Datei fügt dort nichts hinzu.
+#
+# Die gebundene Version wird auch hier nicht ausgesucht. Sie steht in
+# rust-toolchain.toml, und rustup holt sie beim ersten Cargo-Befehl von
+# selbst, wie in prueflauf.yml beschrieben.
+#
+# English: code analysis over the Rust tree, that is units, solutions and
+# xtask.
+#
+# This workflow stands here and not in CONTRIBUTING.md because it is not a
+# command of the check run that a contributor executes locally. The
+# analysis runs as a GitHub service and reports into the code scanning tab;
+# `cargo run -p xtask -- ci` stays the single source for the check run's
+# commands, and this file adds nothing there.
+#
+# The pinned version is not chosen here either. It is in
+# rust-toolchain.toml, and rustup fetches it on the first cargo command by
+# itself, as described in prueflauf.yml.
+name: CodeQL
+
+on:
+  push:
+    branches: [main]
+  # Deutsch: Der Pull-Request-Auslöser ist nicht gefiltert. Ein Filter dort
+  # macht die Prüfung nicht rot, sondern stumm, und ein Urteil, das fehlt,
+  # sieht aus wie eines, das bestanden wurde. English: the pull request
+  # trigger is not filtered. A filter there does not make the check red, it
+  # makes it silent, and a missing verdict looks like a passed one.
+  pull_request:
+    branches: [main]
+  # Deutsch: Ein wöchentlicher Lauf, damit ein Abfragepaket, das etwas Neues
+  # gelernt hat, es gegen den unveränderten Baum sagt. English: a weekly run
+  # so a query pack that has learned something new says so against the
+  # unchanged tree.
+  schedule:
+    - cron: "17 4 * * 4"
+  workflow_dispatch:
+
+# Deutsch: Nichts auf Ablaufebene; der Auftrag unten bittet um das, was er
+# braucht, und nicht mehr. English: nothing at workflow level; the job below
+# asks for what it needs and no more.
+permissions: {}
+
+concurrency:
+  group: ${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  analyze:
+    name: CodeQL (rust)
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    permissions:
+      contents: read
+      security-events: write
+      actions: read
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          persist-credentials: false
+
+      - name: Initialize CodeQL
+        uses: github/codeql-action/init@e4fba868fa4b1b91e1fdab776edc8cfbe6e9fb81 # v4.37.3
+        with:
+          languages: rust
+          # Deutsch: Die Rust-Analyse baut nicht, sie liest die Quellen und
+          # die Cargo-Metadaten. English: the Rust analysis does not build,
+          # it reads the sources and the cargo metadata.
+          build-mode: none
+          # Deutsch: Das Standardpaket findet Sicherheitsfehler, dieses nimmt
+          # die Qualitätsabfragen dazu. English: the default pack finds
+          # security faults, this one adds the quality queries.
+          queries: +security-and-quality
+
+      - name: Perform CodeQL Analysis
+        uses: github/codeql-action/analyze@e4fba868fa4b1b91e1fdab776edc8cfbe6e9fb81 # v4.37.3
+        with:
+          category: "/language:rust"
