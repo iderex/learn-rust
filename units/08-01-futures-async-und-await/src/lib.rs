@@ -59,7 +59,15 @@ impl Sofort {
 impl Future for Sofort {
     type Output = u32;
 
-    fn poll(self: Pin<&mut Self>, kontext: &mut Context<'_>) -> Poll<u32> {
+    // Deutsch: Der Unterstrich steht hier, weil dieser Rumpf fertig ist und den
+    // Kontext nie anfasst. Übernimm ihn nicht in die Aufgabe: `Wartet::poll`
+    // weiter unten braucht den Kontext, um vor dem `Pending` den Wecker zu
+    // wecken, und heißt deshalb `kontext` ohne Unterstrich.
+    // English: the underscore stands here because this body is finished and
+    // never touches the context. Do not carry it into the exercise: `Wartet::poll`
+    // further down needs the context to wake the waker before the `Pending`, and
+    // is therefore called `kontext` without an underscore.
+    fn poll(self: Pin<&mut Self>, _kontext: &mut Context<'_>) -> Poll<u32> {
         Poll::Ready(self.wert)
     }
 }
