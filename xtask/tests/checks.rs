@@ -254,6 +254,56 @@ fn sprachform_passes_the_same_code_block_in_both_languages() {
 }
 
 #[test]
+fn sprachabschnitte_refuses_the_template_without_an_english_section() {
+    let tree = Tree::baseline();
+    tree.edit("units/template/README.md", "## English", "## Englisch");
+    assert_eq!(tree.ids(), only(CheckId::Sprachabschnitte));
+}
+
+#[test]
+fn sprachbalance_refuses_an_english_one_liner_in_the_template() {
+    let tree = Tree::baseline();
+    tree.edit("units/template/README.md", ENGLISH_PROSE, "Short.");
+    assert_eq!(tree.ids(), only(CheckId::Sprachbalance));
+}
+
+#[test]
+fn sprachform_refuses_a_code_block_in_one_language_of_the_template() {
+    let tree = Tree::baseline();
+    tree.edit(
+        "units/template/README.md",
+        "### Source",
+        "```rust
+fn extra() {}
+```
+
+### Source",
+    );
+    assert_eq!(tree.ids(), only(CheckId::Sprachform));
+}
+
+/// Der Nachbarfall zu den drei darueber: die Vorlage traegt Platzhalter statt
+/// einer gebundenen Version, und `quelle` bleibt trotzdem von ihr weg.
+///
+/// The neighbour case to the three above: the template carries placeholders
+/// instead of a pinned version, and `quelle` still stays off it.
+#[test]
+fn quelle_stays_off_a_template_naming_no_pinned_version() {
+    let tree = Tree::baseline();
+    tree.edit(
+        "units/template/README.md",
+        "geprueft gegen 1.97.1",
+        "geprueft gegen <gebundene Version>",
+    );
+    tree.edit(
+        "units/template/README.md",
+        "checked against 1.97.1",
+        "checked against <pinned version>",
+    );
+    assert_eq!(tree.ids(), nothing());
+}
+
+#[test]
 fn quelle_refuses_a_unit_naming_another_version_than_the_pinned_one() {
     let tree = Tree::baseline();
     tree.edit(

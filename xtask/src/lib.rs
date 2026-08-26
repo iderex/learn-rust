@@ -163,6 +163,7 @@ pub fn check(root: &Path) -> io::Result<Vec<Finding>> {
         check_language_sections(&unit.name, &text, &mut findings);
         check_source(&unit.name, &text, pinned.as_deref(), &mut findings);
     }
+    check_template_language(root, &mut findings)?;
     check_solutions(root, &units, &mut findings)?;
     check_numbering(&units, &mut findings);
     check_licence(root, &mut findings)?;
@@ -171,6 +172,30 @@ pub fn check(root: &Path) -> io::Result<Vec<Finding>> {
 
     findings.sort_by(|a, b| (a.check, &a.subject).cmp(&(b.check, &b.subject)));
     Ok(findings)
+}
+
+/// Die Sprachabschnitte der Vorlage, die `units` nicht mitzählt.
+///
+/// Deutsch: Die Vorlage ist die Datei, aus der jede neue Einheit kopiert wird.
+/// Ein Sprachfehler in ihr wandert in die nächste Einheit weiter, und dort wird
+/// er gemeldet statt an seiner Herkunft. `quelle`, `loesung`, `hinweisblock`
+/// und `nummerierung` bleiben von ihr weg: sie trägt Platzhalter statt einer
+/// Quellenangabe und hat weder einen Ordner unter `solutions/` noch eine Zeile
+/// in `llms.txt`.
+///
+/// English: the template is the file every new unit is copied from. A language
+/// fault in it travels into the next unit, where it gets reported instead of at
+/// its origin. `quelle`, `loesung`, `hinweisblock` and `nummerierung` stay off
+/// it: it carries placeholders rather than a source reference, and it has
+/// neither a folder under `solutions/` nor a line in `llms.txt`.
+fn check_template_language(root: &Path, findings: &mut Vec<Finding>) -> io::Result<()> {
+    let readme = root.join("units").join("template").join("README.md");
+    if !readme.is_file() {
+        return Ok(());
+    }
+    let text = fs::read_to_string(&readme)?;
+    check_language_sections("template", &text, findings);
+    Ok(())
 }
 
 /// Die Einheiten unter `units/`, ohne die Vorlage.
