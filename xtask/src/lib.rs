@@ -10,6 +10,7 @@
 //! so it is not taken for more than it does.
 
 pub mod befehle;
+pub mod wurzel;
 
 use std::collections::{BTreeMap, BTreeSet};
 use std::fs;

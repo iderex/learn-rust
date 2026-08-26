@@ -10,10 +10,11 @@
 //! check run, meaning the cargo commands as well, and reads which those are
 //! from CONTRIBUTING.md.
 
-use std::path::{Path, PathBuf};
+use std::path::Path;
 use std::process::{Command, ExitCode};
 
 use xtask::befehle;
+use xtask::wurzel;
 use xtask::{CHECKS, UNCHECKED, check};
 
 fn main() -> ExitCode {
@@ -33,7 +34,13 @@ fn main() -> ExitCode {
 ///
 /// Sends every command of the check run and stops at the first red one.
 fn ci() -> ExitCode {
-    let root = root();
+    let root = match wurzel::vom_laufenden_verzeichnis() {
+        Ok(root) => root,
+        Err(error) => {
+            eprintln!("{error}");
+            return ExitCode::from(2);
+        }
+    };
     println!("xtask ci, Wurzel / root: {}", root.display());
     println!(
         "Die Befehle stehen in CONTRIBUTING.md unter {:?} und werden von dort gelesen.",
@@ -96,7 +103,13 @@ fn schicke(root: &Path, befehl: &str) -> std::io::Result<bool> {
 }
 
 fn run() -> ExitCode {
-    let root = root();
+    let root = match wurzel::vom_laufenden_verzeichnis() {
+        Ok(root) => root,
+        Err(error) => {
+            eprintln!("{error}");
+            return ExitCode::from(2);
+        }
+    };
     println!("xtask check, Wurzel / root: {}", root.display());
     println!();
 
@@ -139,14 +152,4 @@ fn run() -> ExitCode {
         );
     }
     ExitCode::FAILURE
-}
-
-/// Das Wurzelverzeichnis des Repositories, aus der Lage dieses Pakets.
-///
-/// The root of the repository, from where this package sits.
-fn root() -> PathBuf {
-    PathBuf::from(env!("CARGO_MANIFEST_DIR"))
-        .parent()
-        .expect("xtask liegt unterhalb der Wurzel / xtask sits below the root")
-        .to_path_buf()
 }
