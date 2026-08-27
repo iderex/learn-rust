@@ -119,10 +119,10 @@ Wer einen Text unter CC BY 4.0 weiterverwendet, nennt dieses Repository als
 Quelle, verlinkt es und sagt, ob er etwas geändert hat. Für den Code unter MIT
 gilt das nicht.
 
-Jeder Commit trägt eine `Signed-off-by`-Zeile. Sie entsteht von selbst mit
-`git commit -s` und ist die Zustimmung zum Developer Certificate of Origin. Mit
-ihr sagst du, dass du das Recht hast, diesen Beitrag unter der Lizenz des
-Projekts einzureichen.
+Jeder Commit, den jemand schreibt, trägt eine `Signed-off-by`-Zeile. Sie
+entsteht von selbst mit `git commit -s` und ist die Zustimmung zum Developer
+Certificate of Origin. Mit ihr sagst du, dass du das Recht hast, diesen Beitrag
+unter der Lizenz des Projekts einzureichen.
 
 Der folgende Text steht nur auf Englisch, weil es keine verbindliche deutsche
 Fassung von ihm gibt und eine selbst übersetzte etwas anderes bedeuten könnte.
@@ -155,6 +155,26 @@ Fassung von ihm gibt und eine selbst übersetzte etwas anderes bedeuten könnte.
 
 Der vollständige Text mit seinem Urheberrechtsvermerk steht unter
 https://developercertificate.org.
+
+Auf `main` liegen zwei Gruppen von Commits, die die Zeile nicht tragen. Beide
+stehen hier, damit niemand sie für einen Verstoß hält und dann in der Geschichte
+danach sucht.
+
+Die erste Gruppe sind die Zusammenführungs-Commits, die der Knopf auf GitHub
+schreibt. Der Knopf hat keine Stelle, an der eine solche Zeile stünde, also
+können sie sie nicht tragen. Was sie von den Zusammenführungen unterscheidet,
+die in einem Klon mit `git merge` entstanden sind und die Zeile tragen, ist der
+Committer und nicht die Betreffzeile: nicht alle von ihnen fangen mit
+`Merge pull request` an, denn der Knopf nimmt auch den Titel des Pull Requests.
+
+Die zweite Gruppe sind die beiden ersten Commits dieses Repositories vom
+04.08.2026. Sie sind älter als die Regel, die einen Tag später mit `0d97b96` in
+diese Datei kam, und werden nicht nachträglich daran gemessen.
+
+Wie viele es sind, steht hier nicht als Zahl, weil eine Zahl in diesem Text mit
+dem nächsten Merge veraltet. Wer sie sehen will, zählt selbst.
+
+    git log origin/main --format='%H %cn %s' --invert-grep --grep='^Signed-off-by: '
 
 Ob eine `Signed-off-by`-Zeile da ist, prüft heute nichts von selbst. Sie fällt
 nur beim Lesen auf, und das steht hier, damit ihr Fehlen nicht für unmöglich
@@ -319,11 +339,29 @@ Whoever reuses a text under CC BY 4.0 names this repository as the source, links
 it, and says whether they changed anything. For the code under MIT that does not
 apply.
 
-Every commit carries a `Signed-off-by` line. It appears by itself with
-`git commit -s` and is the agreement to the Developer Certificate of Origin. With
-it you say that you have the right to submit this contribution under the licence
-of the project. The wording is quoted in the German section above and is not
-printed a second time here, because it is the same English text in both places.
+Every commit somebody writes carries a `Signed-off-by` line. It appears by
+itself with `git commit -s` and is the agreement to the Developer Certificate of
+Origin. With it you say that you have the right to submit this contribution
+under the licence of the project. The wording is quoted in the German section
+above and is not printed a second time here, because it is the same English text
+in both places.
+
+Two groups of commits on `main` do not carry the line. Both stand here so that
+nobody takes them for a breach and goes looking through the history for one.
+
+The first group are the merge commits the button on GitHub writes. The button has
+nowhere to put such a line, so they cannot carry one. What separates them from
+the merges made in a clone with `git merge`, which do carry it, is the committer
+and not the subject line: not all of them begin with `Merge pull request`,
+because the button also takes the title of the pull request.
+
+The second group are the first two commits this repository has, both from
+2026-08-04. They are older than the rule, which reached this file a day later
+with `0d97b96`, and they are not measured against it afterwards.
+
+How many there are does not stand here as a number, because a number in this text
+goes stale with the next merge. Whoever wants to see them counts them, with the
+command in the German section above.
 
 Whether a `Signed-off-by` line is present is checked by nothing today. It is
 caught only by reading, and that stands here so its absence is not taken to be
