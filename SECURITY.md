@@ -4,8 +4,8 @@
 
 ### Was dieses Repository ist, bevor irgendetwas anderes kommt
 
-`learn-rust` lehrt Rust von der ersten Zeile an. Unter `units/` liegen 73 Crates,
-eines je Lerneinheit, deren Aufgabenrümpfe `todo!()` sind und deren Tests rot
+`learn-rust` lehrt Rust von der ersten Zeile an. Unter `units/` liegt je
+Lerneinheit ein Crate, dessen Aufgabenrümpfe `todo!()` sind und dessen Tests rot
 bleiben, bis jemand sie löst. Unter `solutions/` liegt zu jedem von ihnen ein
 gleichnamiges Crate mit den ausgearbeiteten Aufgaben. `xtask/` trägt den
 Prüflauf, der den Baum liest. Jeder Text steht auf Deutsch und dann auf Englisch.
@@ -167,8 +167,8 @@ genannt.
 
 ### What this repository is, before anything else
 
-`learn-rust` teaches Rust from the first line. Under `units/` sit 73 crates, one
-per lesson, whose exercise bodies are `todo!()` and whose tests stay red until
+`learn-rust` teaches Rust from the first line. Under `units/` sits one crate per
+lesson, whose exercise bodies are `todo!()` and whose tests stay red until
 somebody solves them. Under `solutions/` sits a crate of the same name for every
 one of them, with the exercises worked out. `xtask/` holds the check run that
 reads the tree. Every text stands in German and then in English.
