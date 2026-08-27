@@ -460,20 +460,23 @@ cargo test
 ### Der Prüflauf / The check run
 
 Deutsch: Der Prüflauf geht über beide Workspaces, und alle Befehle werden aus dem
-Wurzelverzeichnis heraus abgeschickt. Die ersten drei gehen über Workspace A, also
-über die Lösungen und `xtask`, und der muss grün sein. Die nächsten beiden gehen
-über Workspace B unter `units/`. Die Einheiten müssen übersetzen und formatiert
-sein, ihre Aufgabentests sind aber absichtlich rot, und deshalb steht für sie
-kein `cargo test` im Block. Der letzte Befehl sieht sich den Baum als Ganzes an
-und sagt selbst, was er angesehen hat und was er nicht ansieht.
+Wurzelverzeichnis heraus abgeschickt. Die Befehle ohne `--manifest-path` gehen
+über Workspace A, also über die Lösungen und `xtask`, und der muss grün sein.
+Die Befehle mit `--manifest-path units/Cargo.toml` gehen über Workspace B unter
+`units/`. Die Einheiten müssen übersetzen und formatiert sein, ihre
+Aufgabentests sind aber absichtlich rot, und deshalb steht für sie kein
+`cargo test` im Block. `cargo run -p xtask -- check` liegt in Workspace A, sieht
+sich aber den Baum als Ganzes an und sagt selbst, was er angesehen hat und was
+er nicht ansieht.
 
 English: the check run goes over both workspaces, and every command is sent from
-the root directory. The first three go over workspace A, meaning the solutions
-and `xtask`, and that one has to be green. The next two go over workspace B under
-`units/`. The units have to compile and be formatted, but their exercise tests
-are red on purpose, and that is why no `cargo test` for them is in the block. The
-last command looks at the tree as a whole and says for itself what it examined
-and what it does not examine.
+the root directory. The commands without `--manifest-path` go over workspace A,
+meaning the solutions and `xtask`, and that one has to be green. The commands
+with `--manifest-path units/Cargo.toml` go over workspace B under `units/`. The
+units have to compile and be formatted, but their exercise tests are red on
+purpose, and that is why no `cargo test` for them is in the block.
+`cargo run -p xtask -- check` sits in workspace A but looks at the tree as a
+whole and says for itself what it examined and what it does not examine.
 
 ```console
 cargo fmt --all --check
@@ -486,28 +489,31 @@ cargo run -p xtask -- check
 
 Deutsch: Dass `--manifest-path` die Einheiten wirklich erreicht, ist gemessen und
 nicht angenommen. Mit einer absichtlich falsch formatierten Zeile in
-`units/02-01-move/src/lib.rs` gibt der vierte Befehl 1 zurück und nennt die Datei
-und die Zeile, während `cargo fmt --all --check` im Wurzelverzeichnis 0 zurückgibt
-und nichts meldet. Zwei Läufe sind es also deshalb, weil der eine den anderen
-nicht erreicht.
+`units/02-01-move/src/lib.rs` gibt
+`cargo fmt --manifest-path units/Cargo.toml --all --check` 1 zurück und nennt die
+Datei und die Zeile, während `cargo fmt --all --check` im Wurzelverzeichnis 0
+zurückgibt und nichts meldet. Zwei Läufe sind es also deshalb, weil der eine den
+anderen nicht erreicht.
 
 English: that `--manifest-path` really reaches the units is measured rather than
 assumed. With a deliberately misformatted line in `units/02-01-move/src/lib.rs`
-the fourth command returns 1 and names the file and the line, while
-`cargo fmt --all --check` at the root returns 0 and reports nothing. Two runs
-therefore exist because one does not reach the other.
+`cargo fmt --manifest-path units/Cargo.toml --all --check` returns 1 and names
+the file and the line, while `cargo fmt --all --check` at the root returns 0 and
+reports nothing. Two runs therefore exist because one does not reach the
+other.
 
 ### Was der Lauf nicht erreicht / What the run does not reach
 
 Deutsch: `units/template/` liegt in keinem der beiden Workspaces. Im
 Wurzelverzeichnis führt `members` nur `solutions/*` und `xtask`, und
 `units/Cargo.toml` führt `template` unter `exclude`. Die Vorlage wird also
-weder übersetzt noch formatiert geprüft. Der letzte Befehl liest sie als Text
-und sieht dort den Hinweisblock und die Namen der Dateien an, mehr nicht.
+weder übersetzt noch formatiert geprüft. `cargo run -p xtask -- check` liest sie
+als Text und sieht dort den Hinweisblock und die Namen der Dateien an, mehr
+nicht.
 
-Was der letzte Befehl nicht beantwortet, gibt er selbst aus, statt es nur hier
-stehen zu haben. Kurz gefasst: ob die beiden Sprachfassungen dasselbe sagen, ob
-eine genannte Quelle ihre Behauptung trägt, ob ein Commit die
+Was `cargo run -p xtask -- check` nicht beantwortet, gibt er selbst aus, statt es
+nur hier stehen zu haben. Kurz gefasst: ob die beiden Sprachfassungen dasselbe
+sagen, ob eine genannte Quelle ihre Behauptung trägt, ob ein Commit die
 `Signed-off-by`-Zeile trägt und ob ein Assistent den Hinweisen folgt. Nichts
 davon kann er lesen.
 
@@ -530,14 +536,14 @@ durchgelaufen sind, und nicht, dass der Beitrag gelesen wurde.
 English: `units/template/` is in neither workspace. At the root `members` lists
 only `solutions/*` and `xtask`, and `units/Cargo.toml` lists `template` under
 `exclude`. The template is therefore neither compiled nor checked for
-formatting. The last command reads it as text and looks at the note block and at
-the names of the files there, and at nothing else.
+formatting. `cargo run -p xtask -- check` reads it as text and looks at the note
+block and at the names of the files there, and at nothing else.
 
-What the last command does not answer it prints for itself rather than only
-having it written here. Briefly: whether the two language versions say the same
-thing, whether a named source carries its claim, whether a commit carries the
-`Signed-off-by` line, and whether an assistant follows the guidance. It can read
-none of that.
+What `cargo run -p xtask -- check` does not answer it prints for itself rather
+than only having it written here. Briefly: whether the two language versions say
+the same thing, whether a named source carries its claim, whether a commit
+carries the `Signed-off-by` line, and whether an assistant follows the guidance.
+It can read none of that.
 
 The check run is started by itself these days. Under
 `.github/workflows/prueflauf.yml` there is a route that runs on every pull
