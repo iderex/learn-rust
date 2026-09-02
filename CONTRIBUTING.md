@@ -95,11 +95,20 @@ Link führt auf die Seite, die der Titel meint.
 Wer die gebundene Version später anhebt, sieht die Titel neu nach und zieht die
 Angaben nach, die sich geändert haben.
 
-Automatisch geprüft wird davon heute nichts. Eine Behauptung ohne Quelle wird
-im Review nachgefragt. Ob eine genannte Quelle die Behauptung wirklich trägt,
-entscheidet ein Mensch beim Lesen. Issue #5 plant eine Prüfung, die nachsieht,
-ob jede Einheit eine Quelle mit Kapiteltitel und gebundener Version nennt. Ob
-eine Quelle stimmt, wird auch die nicht beantworten.
+Ein Teil davon wird geprüft, und es ist weniger, als der Name der Prüfung
+vermuten lässt. `quelle` aus `cargo run -p xtask -- check` liest die README
+jeder Einheit und verlangt zweierlei: dass das Wort `Kapitel` und ein
+Anführungszeichen darin vorkommen, und dass die in `rust-toolchain.toml`
+gebundene Version genannt ist. Von den vier Teilen oben ist damit die
+Kapitelnummer von nichts gelesen, der Link von nichts und die Schreibweise des
+Titels ebenso wenig; geprüft ist, dass überhaupt ein Titel und die Version
+dastehen. Die Vorlage bleibt außen vor, weil sie Platzhalter statt einer
+Quellenangabe trägt.
+
+Eine Behauptung ohne Quelle wird im Review nachgefragt. Ob eine genannte Quelle
+die Behauptung wirklich trägt, entscheidet ein Mensch beim Lesen; das steht auf
+der Liste `Nicht angesehen`, die der Lauf selbst ausgibt, und keine Prüfung wird
+es beantworten.
 
 ### Lizenz und die Zeile Signed-off-by
 
@@ -315,11 +324,18 @@ link points at the page the title means.
 Whoever raises the pinned version later checks the titles again and carries
 over the references that changed.
 
-None of this is checked automatically today. A claim without a source gets
-asked about in review. Whether a named source really carries the claim is
-decided by a person reading it. Issue #5 plans a check that looks at whether
-every unit names a source with chapter title and pinned version. Whether a
-source is right is not something that check will answer either.
+Part of this is checked, and it is less than the name of the check suggests.
+`quelle` from `cargo run -p xtask -- check` reads the README of every unit and
+asks two things: that the word `Kapitel` and a double quote appear in it, and
+that the version pinned in `rust-toolchain.toml` is named. Of the four parts
+above, the chapter number is therefore read by nothing, the link by nothing and
+the spelling of the title by nothing either; what is checked is that a title and
+the version stand there at all. The template stays out of it, because it carries
+placeholders rather than a source reference.
+
+A claim without a source gets asked about in review. Whether a named source
+really carries the claim is decided by a person reading it; that stands on the
+`Nicht angesehen` list the run prints for itself, and no check will answer it.
 
 ### Licence and the Signed-off-by line
 
